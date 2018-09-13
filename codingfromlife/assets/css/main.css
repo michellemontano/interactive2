@@ -61,7 +61,7 @@ body {
 	height: 150px;
 	background: yellow;
 	border-radius: 150px;
-	top: 200px;
+	top: 210px;
 	left: 440px;
 	position: absolute;
 	transform: rotate(15deg);
@@ -74,16 +74,16 @@ body {
 	-moz-border-radius: 100px / 50px;
 	-webkit-border-radius: 100px / 50px;
 	border-radius: 100px / 50px;
-	top: 120px;
+	top: 100px;
 	left: 250px;
 	position: absolute;
 }
 
 #coffeebase {
 	width: 195px;
-	height: 230px;
+	height: 260px;
 	background: #dbdbdb;
-	top: 140px;
+	top: 120px;
 	left: 252px;
 	position: absolute;
 }
@@ -93,7 +93,7 @@ body {
   height: 150px;
   border-radius: 50%;
   box-shadow: 15px 15px 0 0 black;
-	top: 140px;
+	top: 120px;
 	left: 350px;
 	position: absolute;
 	transform: rotate(-15deg);
