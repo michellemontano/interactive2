@@ -16,7 +16,7 @@ h1 {
 	width: 20px;
 	height: 20px;
 	border-radius: 150px;
-	top: 10px;
+	top: 209px;
   background-color: black;
 	left: 10px;
 	position: absolute;
@@ -25,8 +25,56 @@ h1 {
 	width: 30px;
 	height: 30px;
 	border-radius: 150px;
-	top: 20px;
+	top: 228px;
   background-color: black;
 	left: 10px;
 	position: absolute;
 }
+#circle4 {
+width: 20px;
+height: 20px;
+border-radius: 150px;
+top: 260px;
+background-color: black;
+left: 10px;
+position: absolute;
+}
+
+#circle5 {
+width: 10px;
+height: 10px;
+border-radius: 150px;
+top: 280px;
+background-color: black;
+left: 10px;
+position: absolute;
+}
+
+#circle6 {
+  width: 20px;
+  height: 20px;
+  border-radius: 150px;
+  top: 290px;
+  background-color: black;
+  left: 10px;
+  position: absolute;
+}
+#circle6 {
+  width: 20px;
+  height: 20px;
+  border-radius: 150px;
+  top: 300px;
+  background-color: black;
+  left: 10px;
+  position: absolute;
+}
+#circle7
+#circle8
+#circle9
+#circle10
+#circle11
+#circle12
+#circle13
+#circle14
+#circle15
+#circle16
