@@ -1,0 +1,32 @@
+h1 {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+#circle1 {
+	width: 10px;
+	height: 10px;
+	border-radius: 150px;
+	top: 200px;
+  background-color: black;
+	left: 10px;
+	position: absolute;
+}
+#circle2 {
+	width: 20px;
+	height: 20px;
+	border-radius: 150px;
+	top: 10px;
+  background-color: black;
+	left: 10px;
+	position: absolute;
+}
+#circle3 {
+	width: 30px;
+	height: 30px;
+	border-radius: 150px;
+	top: 20px;
+  background-color: black;
+	left: 10px;
+	position: absolute;
+}
