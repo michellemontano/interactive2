@@ -6,9 +6,12 @@ body {
   height:390px;
   float:left;
   position: relative;
+  transform: scale(.5,.5);
+
 }
 .letter>* {
   position: absolute;
+
 }
 /* ********** LETTER A ********** */
 .a {
