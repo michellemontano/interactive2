@@ -294,13 +294,13 @@ left: 17%
 }
 
 .x .stem.leftLeg {
-transform: rotate(30deg) scaleX(-1) ;
-left: 265px;
-top: 0px;
+  transform: rotate(37deg) scaleX(-1);
+  left: 265px;
+  top: 0px;
 }
 .x .stem.rightLeg {
-  transform: rotate(-30deg);
-  left: 442px;
+  transform: rotate(-37deg);
+  left: 485px;
   top: 0px;
 }
 /* ********** LETTER Y ********** */
