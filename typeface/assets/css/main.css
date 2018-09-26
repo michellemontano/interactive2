@@ -1,21 +1,21 @@
 body {
-  background-image: linear-gradient(to top, #214784, #afdfff);
+  background-image: linear-gradient(to top, #214784, #60b5ff, #ffd3fd);
 }
 
 .letter {
-  height:390px;
+  height:350px;
   float:left;
   position: relative;
   transform: scale(.5,.5);
-
 }
+
 .letter>* {
   position: absolute;
-
 }
 /* ********** LETTER A ********** */
 .a {
   width:390px;
+  left: 197px;
 }
 .a .stem.rightLeg {
     transform: scaleX(-1) rotate(21deg);
@@ -36,33 +36,41 @@ body {
 .b {
   width:390px;
 }
+
+.b .stem.leftLeg {
+  left: 2px;
+}
 /* ********** LETTER C ********** */
 .c {
   width:390px;
+  left: 195px;
 }
 /* ********** LETTER D ********** */
 .d {
   width:390px;
+  left:0px;
+}
+.d .stem.leftLeg {
+  left: 2px;
 }
 /* ********** LETTER E ********** */
 .e {
     width:390px;
+    left:195px;
 }
-
 .letteretop {
   transform: scaleX(-1) rotate(90deg);
-  bottom: 280px;
+  bottom: 240px;
   left: 20%;
 }
 .e .crossbar {
   transform: rotate(90deg);
-  bottom: 40%;
+  bottom: 30%;
   left: 17%;
 }
-
 .letterebottom {
-  transform: rotate(90deg);
-  bottom: -41px;
+  transform: rotate(90deg) scaleX(-1);
+  bottom: -82px;
   left: 22%;
 }
 /* ********** LETTER F ********** */
@@ -72,18 +80,19 @@ body {
 
 .letterftop {
   transform: scaleX(-1) rotate(90deg);
-  bottom: 280px;
+  bottom: 241px;
   left: 20%;
 }
 
 .f .crossbar {
   transform: rotate(90deg);
-  bottom: 40%;
+  bottom: 33%;
   left: 17%;
 }
 /* ********** LETTER G ********** */
 .g {
     width:390px;
+    left:195px;
 }
 .g .crossbar {
 transform: rotate(90deg);
@@ -96,35 +105,36 @@ left: 49%;
 }
 
 .h .crossbar {
-transform: rotate(90deg);
-bottom: 40%;
-left: 17%
+  transform: rotate(90deg)scaleX(-1);
+  bottom: 24%;
+  left: 27%;
 }
 
 .h .stem.rightLeg {
-  left: 42%
+  left: 51%;
+  transform: scaleX(-1)
 }
 /* ********** LETTER I ********** */
 .i {
     width:390px;
-    left:20px;
+    left:193px;
 }
 
 .letteristem {
-  left: 20%;
-  bottom: 20px;
+  left: 31%;
+  bottom: 0px;
 }
 
 .letteritop {
   transform: scaleX(-1) rotate(90deg);
-  bottom: 275px;
-  left: 20%;
+  bottom: 215px;
+  left: 30%;
 }
 
 .letteribottom {
-  transform: rotate(90deg);
-  bottom: -68px;
-  left: 20%;
+  transform: rotate(90deg) scaleX(-1);
+  bottom: -107px;
+  left: 29%;
 }
 /* ********** LETTER J ********** */
 .j {
@@ -139,20 +149,21 @@ left: 17%
 /* ********** LETTER K ********** */
 .k {
     width:390px;
+    left: 195px;
 }
 
 .kleftleg {
 
 }
 .krightleg {
-  transform: scaleX(-1) rotate(136deg);
-  left: 94px;
-  bottom: 174px;
+  transform: scaleX(-1) rotate(131deg);
+  left: 98px;
+  bottom: 151px;
 }
 .krightleg2 {
   transform: scaleX(-1) rotate(43deg);
-  left: 136px;
-  bottom: 13px;
+  left: 160px;
+  bottom: -76px;
 
 }
 
@@ -162,12 +173,13 @@ left: 17%
 }
 .letterlbottom {
   transform: rotate(90deg);
-  bottom: -27px;
-  left: 20%;
+  bottom: -77px;
+  left: 29%;
 }
 /* ********** LETTER M ********** */
 .m {
     width:390px;
+    left:195px;
 }
 
 .m .stem.leftLeg {
@@ -175,25 +187,26 @@ left: 17%
 }
 .minnerleftleg {
   transform: rotate(159deg);
-  left: 54px;
+  left: 59px;
 }
 .minnerrightleg {
   transform: scaleX(-1) rotate(158deg);
-   left: 180px;
+  left: 202px;
 }
 .m .stem.rightLeg {
-  left: 239px;
+  left: 265px;
+  transform: scaleX(-1);
 }
 /* ********** LETTER N ********** */
 .n {
     width:390px;
 }
 .ninnerleftleg {
-  transform: rotate(145deg);
-  left: 113px;
+  transform: rotate(159deg);
+  left: 85px;
 }
 .n .stem.rightLeg {
-  left: 239px;
+  left: 177px;
 }
 /* ********** LETTER O ********** */
 .o {
@@ -254,39 +267,40 @@ left: 17%
   position: absolute;
 }
 .v>.leftLeg {
-  transform: rotate(-25deg) scaleX(-1) ;
-  left:195px;
-  top:0;
+  transform: rotate(-25deg) scaleX(-1);
+      left: 131px;
+      top: 0;
 }
 .v>.rightLeg {
   transform: rotate(25deg);
-  left: 195px;
+  left: 146px;
   top: 0px;
 }
 /* ********** LETTER W ********** */
 .w {
   width:390px;
+  left: 168px;
 }
 
 .w .stem.leftLeg {
-  transform: rotate(-25deg);
-  left: 139px;
-  top: 0px;
+  transform: rotate(159deg);
+left: -9px;
+top: -316px;
 }
 .winnerleft {
-  transform: rotate(30deg);
-  left: 187px;
-  top: 202px;
+  transform: rotate(-159deg);
+  left: 145px;
+  top: 174px;
 }
 .winnerright {
-  transform: rotate(-30deg);
-  left: 265px;
-  top: 191px;
+  transform: rotate(159deg) scaleX(-1);
+  left: 226px;
+  top: 174px;
 }
 .w .stem.rightLeg {
-  transform: rotate(25deg);
-  left: 310px;
-  top: 0;
+  transform: rotate(-159deg) scaleX(-1);
+      left: 380px;
+      top: -316px;
 }
 /* ********** LETTER X ********** */
 .x {
@@ -294,14 +308,14 @@ left: 17%
 }
 
 .x .stem.leftLeg {
-  transform: rotate(37deg) scaleX(-1);
-  left: 265px;
-  top: 0px;
+  transform: rotate(-150deg) scaleX(-1);
+  left: 172px;
+  top: -299px;
 }
 .x .stem.rightLeg {
-  transform: rotate(-37deg);
-  left: 485px;
-  top: 0px;
+  transform: rotate(150deg);
+  left: -7px;
+  top: -299px;
 }
 /* ********** LETTER Y ********** */
 .y {
