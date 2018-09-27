@@ -30,7 +30,7 @@ body {
 .a .stem.rightLeg {
     transform: scaleX(-1) rotate(21deg);
     bottom: 0;
-    left: 63%;
+    left: 63px;
 }
 .a .stem.leftLeg {
   transform: rotate(21deg);
@@ -39,8 +39,8 @@ body {
 }
 .crossbar {
   transform: rotate(90deg);
-  bottom: 16%;
-  left: 32%;
+  bottom: 16px;
+  left: 32px;
 }
 /* ********** LETTER B ********** */
 .b {
@@ -82,17 +82,17 @@ left: 156px;
 .letteretop {
   transform: scaleX(-1) rotate(90deg);
   bottom: 240px;
-  left: 20%;
+  left: 20px;
 }
 .e .crossbar {
   transform: rotate(90deg);
-  bottom: 30%;
-  left: 17%;
+  bottom: 30px;
+  left: 17px;
 }
 .letterebottom {
   transform: rotate(90deg) scaleX(-1);
   bottom: -82px;
-  left: 22%;
+  left: 22px;
 }
 /* ********** LETTER F ********** */
 .f {
@@ -102,13 +102,13 @@ left: 156px;
 .letterftop {
   transform: scaleX(-1) rotate(90deg);
   bottom: 241px;
-  left: 20%;
+  left: 20px;
 }
 
 .f .crossbar {
   transform: rotate(90deg);
-  bottom: 33%;
-  left: 17%;
+  bottom: 33px;
+  left: 17px;
 }
 /* ********** LETTER G ********** */
 .g {
@@ -117,8 +117,8 @@ left: 156px;
 }
 .g .crossbar {
 transform: rotate(90deg);
-bottom: 40%;
-left: 49%;
+bottom: 40px;
+left: 49px;
 }
 .g .topcurve {
  width: 368px;
@@ -130,12 +130,12 @@ left: 49%;
 
 .h .crossbar {
   transform: rotate(90deg)scaleX(-1);
-  bottom: 24%;
-  left: 27%;
+  bottom: 24px;
+  left: 27px;
 }
 
 .h .stem.rightLeg {
-  left: 51%;
+  left: 51px;
   transform: scaleX(-1)
 }
 /* ********** LETTER I ********** */
@@ -145,20 +145,20 @@ left: 49%;
 }
 
 .letteristem {
-  left: 31%;
+  left: 31px;
   bottom: 0px;
 }
 
 .letteritop {
   transform: scaleX(-1) rotate(90deg);
   bottom: 215px;
-  left: 30%;
+  left: 30px;
 }
 
 .letteribottom {
   transform: rotate(90deg) scaleX(-1);
   bottom: -107px;
-  left: 29%;
+  left: 29px;
 }
 /* ********** LETTER J ********** */
 .j {
@@ -201,7 +201,7 @@ left: 49%;
 .letterlbottom {
   transform: rotate(90deg);
   bottom: -77px;
-  left: 29%;
+  left: 29px;
 }
 /* ********** LETTER M ********** */
 .m {
@@ -422,8 +422,12 @@ top:0px
   width:390px;
 }
 /* ********** 0 ********** */
-.ten {
+.zero {
   width:390px;
+}
+.zero .stem.rightLeg {
+  left: 265px;
+  transform: scaleX(-1) rotate: 30deg;
 }
 /* ********** ! ********** */
 .exclame {
