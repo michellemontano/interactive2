@@ -8,9 +8,19 @@ body {
   position: relative;
   transform: scale(.5,.5);
 }
-
 .letter>* {
   position: absolute;
+}
+.stem {
+  width:30px;
+  transform-origin: 50% 100%;
+  position: absolute;
+}
+.bowl {
+  position:absolute;
+  left:20px;
+  height:220px;
+  width:220px;
 }
 /* ********** LETTER A ********** */
 .a {
@@ -40,11 +50,19 @@ body {
 .b .stem.leftLeg {
   left: 2px;
 }
+
+.b .bowl {
+ width: 220px;
+ height: 220px;
+left: 156px;
+}
+
 /* ********** LETTER C ********** */
 .c {
   width:390px;
   left: 195px;
 }
+
 /* ********** LETTER D ********** */
 .d {
   width:390px;
@@ -52,6 +70,9 @@ body {
 }
 .d .stem.leftLeg {
   left: 2px;
+}
+.d .topcurve {
+ width: 368px;
 }
 /* ********** LETTER E ********** */
 .e {
@@ -99,6 +120,9 @@ transform: rotate(90deg);
 bottom: 40%;
 left: 49%;
 }
+.g .topcurve {
+ width: 368px;
+}
 /* ********** LETTER H ********** */
 .h {
     width:390px;
@@ -145,6 +169,9 @@ left: 49%;
   transform: scaleX(-1) rotate(90deg);
   bottom: 280px;
   left: 20%;
+}
+.j .topcurve {
+ width: 368px;
 }
 /* ********** LETTER K ********** */
 .k {
@@ -212,12 +239,16 @@ left: 49%;
 .o {
     width:390px;
 }
+
 /* ********** LETTER P ********** */
 .p {
     width:390px;
 }
 .p .stem.leftLeg {
 
+}
+.p .bowl {
+ width: 368px;
 }
 /* ********** LETTER Q ********** */
 .q {
@@ -237,9 +268,15 @@ left: 49%;
   left: 181px;
   top: 141px;
 }
+.r .bowl {
+ width: 368px;
+}
 /* ********** LETTER S ********** */
 .s {
     width:390px;
+}
+.s .topcurve {
+ width: 368px;
 }
 /* ********** LETTER T ********** */
 .t {
@@ -261,11 +298,6 @@ left: 49%;
   width:390px;
 }
 
-.stem {
-  width:30px;
-  transform-origin: 50% 100%;
-  position: absolute;
-}
 .v>.leftLeg {
   transform: rotate(-25deg) scaleX(-1);
       left: 131px;
@@ -342,36 +374,194 @@ top:0px
   top: 200px;
 }
 /* ********** 1 ********** */
-
+.one {
+  width:390px;
+}
+.one .stem.leftLeg {
+  left: 265px;
+  transform: scaleX(-1);
+}
 /* ********** 2 ********** */
-
+.two {
+  width:390px;
+}
 /* ********** 3 ********** */
-
+.three {
+  width:390px;
+}
 /* ********** 4 ********** */
-
+.four {
+  width:390px;
+}
+.four .stem.rightLeg {
+  left: 265px;
+  transform: scaleX(-1);
+}
 /* ********** 5 ********** */
-
+.five {
+  width:390px;
+}
 /* ********** 6 ********** */
-
+.six {
+  width:390px;
+}
 /* ********** 7 ********** */
-
+.seven {
+  width:390px;
+}
+.seven .stem.rightLeg {
+  left: 265px;
+  transform: scaleX(-1);
+}
 /* ********** 8 ********** */
-
+.eight {
+  width:390px;
+}
 /* ********** 9 ********** */
-
+.nine {
+  width:390px;
+}
 /* ********** 0 ********** */
-
+.ten {
+  width:390px;
+}
 /* ********** ! ********** */
-
+.exclame {
+  width:390px;
+}
+.exclame .stem.leftLeg {
+  left: 265px;
+  transform: scaleX(-1);
+}
 /* ********** ? ********** */
-
+.question {
+  width:390px;
+}
 /* ********** "" ********** */
-
+.quote {
+  width:390px;
+}
 /* ********** , ********** */
-
+.comma {
+  width:390px;
+}
 /* ********** . ********** */
+.period {
+  width:390px;
+}
 
 
+/* ********** CURVE LINES ********** */
+/* .circlecurve1 {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  left: 0px;
+  top: 0px;
+}
+.circlecurve2 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  left: 0px;
+  top: 0px;
+}
+.circlecurve3 {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  left: 0px;
+  top: 0px;
+}
+.circlecurve4 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  left: 0px;
+  top: 0px;
+}
+.circlecurve5 {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  left: 0px;
+  top: 0px;
+}
+.circlecurve6 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  left: 0px;
+  top: 0px;
+}
+.circlecurve7 {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  left: 0px;
+  top: 0px;
+}
+.circlecurve8 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  left: 0px;
+  top: 0px;
+}
+.circlecurve9 {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  left: 0px;
+  top: 0px;
+}
+.circlecurve10 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  left: 0px;
+  top: 0px;
+}
+.circlecurve11 {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  left: 0px;
+  top: 0px;
+} */
 /* ********** CIRCLES ********** */
 
 .circle1 {
@@ -412,8 +602,8 @@ width: 10px;
 height: 10px;
 background-color: white;
 -moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+-webkit-border-radius: 50px;
+border-radius: 50px;
 
 }
 
