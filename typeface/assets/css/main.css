@@ -2,11 +2,17 @@ body {
   background-image: linear-gradient(to top, #214784, #60b5ff, #ffd3fd);
 }
 
+#scaler {
+  transform: scale(.5,.5);
+  transform-origin: 0 0;
+  width:200vw;
+}
+
 .letter {
   height:350px;
   float:left;
   position: relative;
-  transform: scale(.5,.5);
+  /* transform: scale(.5,.5); */
 }
 .letter>* {
   position: absolute;
@@ -16,21 +22,196 @@ body {
   transform-origin: 50% 100%;
   position: absolute;
 }
+
+.counter {
+  height:350px;
+}
+
 .bowl {
   position:absolute;
   left:20px;
   height:220px;
   width:220px;
 }
+/* BOWL */
+.bowl .circle1 {
+    position:absolute;
+    top:-0.667px;
+    left:32.333px;
+}
+.bowl .circle2 {
+    position:absolute;
+    top: -1.146px;
+    left:55.875px;
+}
+.bowl .circle3 {
+    position:absolute;
+    top:-0.781px;
+    left:81.599px;
+}
+.bowl .circle5 {
+  position:absolute;
+  top:0.753px;
+  left:106.836px;
+}
+.bowl .circle6 {
+  position:absolute;
+  top:6.133px;
+  left:131.122px;
+}
+.bowl .circle7 {
+  position:absolute;
+  top: 17.112px;
+  left:154.5px;
+}
+.bowl .circle8 {
+  position:absolute;
+  top:32.958px;
+  left:170.755px;
+}
+.bowl .circle9 {
+  position:absolute;
+  top:52.482px;
+  left:182.164px;
+}
+.bowl .circle10 {
+  position:absolute;
+  top:72.125px;
+  left:187.802px;
+}
+.bowl .circle11 {
+  position:absolute;
+  top:92.354px;
+  left:186.49px;
+}
+.bowl .circle12 {
+  position:absolute;
+  top:112.206px;
+  left:181.276px;
+}
+.bowl .circle13 {
+  position:absolute;
+  top:130.206px;
+  left:165.268px;
+}
+.bowl .circle14 {
+  position:absolute;
+  top:142.445px;
+  left:145.284px;
+}
+.bowl .circle15 {
+  position:absolute;
+  top:150.794px;
+  left:122.19px;
+}
+.bowl .circle16 {
+  position:absolute;
+  top:152.909px;
+  left:101.729px;
+}
+.bowl .circle17 {
+  position:absolute;
+  top:154.589px;
+  left:80.133px;
+}
+.bowl .circle18 {
+  position:absolute;
+  top:155.141px;
+  left:55.529px;
+}
+.bowl .circle19 {
+  position:absolute;
+  top:156.719px;
+  left:34.385px;
+}
+/* .bowl .circle20 {
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+.bowl .circle21 {
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+.bowl .circle22 {
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+.bowl .circle23 {
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+.bowl .circle24 {
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+.bowl .circle25 {
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+.bowl .circle26 {
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+.bowl .circle27 {
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+.bowl .circle28 {
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+.bowl .circle29 {
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+.bowl .circle30 {
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+.bowl .circle31 {
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+.bowl .circle32 {
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+.bowl .circle33 {
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+.bowl .circle34 {
+  position:absolute;
+  top:60px;
+  left:10px;
+}
+.bowl .circle35 {
+  position:absolute;
+  top:60px;
+  left:10px;
+} */
 /* ********** LETTER A ********** */
 .a {
-  width:390px;
-  left: 197px;
+  width:290px;
 }
 .a .stem.rightLeg {
-    transform: scaleX(-1) rotate(21deg);
-    bottom: 0;
-    left: 63px;
+  transform: scaleX(-1) rotate(21deg);
+  bottom: 0;
+  left: 229px;
 }
 .a .stem.leftLeg {
   transform: rotate(21deg);
@@ -39,8 +220,8 @@ body {
 }
 .crossbar {
   transform: rotate(90deg);
-  bottom: 16px;
-  left: 32px;
+  bottom: 52px;
+  left: 115px;
 }
 /* ********** LETTER B ********** */
 .b {
@@ -52,47 +233,51 @@ body {
 }
 
 .b .bowl {
- width: 220px;
- height: 220px;
-left: 156px;
-}
+  width: 220px;
+  height: 220px;
+  left: 32px;
 
 /* ********** LETTER C ********** */
 .c {
   width:390px;
   left: 195px;
 }
+.c .bowl {
+  width:390px;
+  left: 195px
+}
 
 /* ********** LETTER D ********** */
 .d {
   width:390px;
-  left:0px;
+  /* left:0px; */
 }
 .d .stem.leftLeg {
   left: 2px;
 }
-.d .topcurve {
- width: 368px;
+.d .bowl {
+  width:390px;
+  left: 195px
 }
 /* ********** LETTER E ********** */
 .e {
     width:390px;
-    left:195px;
+    /* left:195px; */
 }
 .letteretop {
   transform: scaleX(-1) rotate(90deg);
   bottom: 240px;
-  left: 20px;
+  left: 94px;
 }
 .e .crossbar {
   transform: rotate(90deg);
-  bottom: 30px;
-  left: 17px;
+  bottom: 52px;
+  left: 68px;
 }
 .letterebottom {
   transform: rotate(90deg) scaleX(-1);
   bottom: -82px;
-  left: 22px;
+  left: 94px;
 }
 /* ********** LETTER F ********** */
 .f {
@@ -120,8 +305,9 @@ transform: rotate(90deg);
 bottom: 40px;
 left: 49px;
 }
-.g .topcurve {
- width: 368px;
+.g .bowl {
+  width:390px;
+  left: 195px;
 }
 /* ********** LETTER H ********** */
 .h {
@@ -170,8 +356,9 @@ left: 49px;
   bottom: 280px;
   left: 20%;
 }
-.j .topcurve {
- width: 368px;
+.j .bowl {
+  width:390px;
+  left: 195px;
 }
 /* ********** LETTER K ********** */
 .k {
@@ -240,6 +427,10 @@ left: 49px;
     width:390px;
 }
 
+.o .bowl {
+  width:390px;
+  left: 195px;
+}
 /* ********** LETTER P ********** */
 .p {
     width:390px;
@@ -430,12 +621,14 @@ top:0px
   transform: scaleX(-1) rotate: 30deg;
 }
 /* ********** ! ********** */
-.exclame {
+.exclaim {
   width:390px;
 }
-.exclame .stem.leftLeg {
-  left: 265px;
+.exclaim .stem.leftLeg {
   transform: scaleX(-1);
+}
+.exclaim .circle15, .exclame .circle16, .exclame .circle17 {
+  opacity: 0;
 }
 /* ********** ? ********** */
 .question {
@@ -455,117 +648,6 @@ top:0px
 }
 
 
-/* ********** CURVE LINES ********** */
-/* .circlecurve1 {
-  width: 10px;
-  height: 10px;
-  background-color: white;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  left: 0px;
-  top: 0px;
-}
-.circlecurve2 {
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  left: 0px;
-  top: 0px;
-}
-.circlecurve3 {
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  left: 0px;
-  top: 0px;
-}
-.circlecurve4 {
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  left: 0px;
-  top: 0px;
-}
-.circlecurve5 {
-  width: 10px;
-  height: 10px;
-  background-color: white;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  left: 0px;
-  top: 0px;
-}
-.circlecurve6 {
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  left: 0px;
-  top: 0px;
-}
-.circlecurve7 {
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  left: 0px;
-  top: 0px;
-}
-.circlecurve8 {
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  left: 0px;
-  top: 0px;
-}
-.circlecurve9 {
-  width: 10px;
-  height: 10px;
-  background-color: white;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  left: 0px;
-  top: 0px;
-}
-.circlecurve10 {
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  left: 0px;
-  top: 0px;
-}
-.circlecurve11 {
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  left: 0px;
-  top: 0px;
-} */
 /* ********** CIRCLES ********** */
 
 .circle1 {
@@ -716,6 +798,142 @@ border-radius: 50px;
 	border-radius: 50px;
 }
 .circle18 {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle19 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle20 {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle21 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle22 {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle23 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle24 {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle25 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle26 {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle27 {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle28 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle29 {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle30 {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle31 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle32 {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle33 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle34 {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.circle35 {
   width: 10px;
   height: 10px;
   background-color: white;

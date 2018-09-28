@@ -1,0 +1,55 @@
+NOTES - INTERACTIVE 2 NOTES - INTERACTIVE 2 NOTES - INTERACTIVE 2 NOTES - INTERACTIVE 2
+
+Reference:
+https://glitch.com/edit/#!/satisfying-flat?path=style.css:13:1
+
+~~~~~~~~~~ HTML ~~~~~~~~~~
+<div class="dave">
+  <div id="circle-1">
+
+  </div>
+    <div>
+
+    </div>
+      <div>
+
+        </div>
+          <div>
+</div>
+</div>
+
+
+~~~~~~~~~~ CSS ~~~~~~~~~~
+
+.dave div {
+  background:red;
+  width:100px;
+  height:100px;
+  margin:25px;
+  display:inline-block;
+  transition: opacity 100ms ease-in-out;
+}
+.dave div.hide {
+  opacity:0;
+}
+
+#circle-1 {
+  transition: opacity 100ms 2s ease-in-out;
+}
+
+
+~~~~~~~~~~ SCRIPT ~~~~~~~~~~
+
+let allMyDivs = document.querySelectorAll('.dave div')
+
+function divClick(e){
+  let length = this.parentNode.children.length
+  for(let i = 0; i < length; i++){
+    this.parentNode.children[i].classList.add('hide')
+  }
+}
+
+for(let counter = 0; counter < allMyDivs.length; counter ++){
+  console.log(counter, allMyDivs[counter])
+   allMyDivs[counter].onpointerdown = divClick
+}
