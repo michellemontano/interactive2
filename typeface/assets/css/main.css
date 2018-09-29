@@ -12,12 +12,11 @@ body {
   height:350px;
   float:left;
   position: relative;
+  /* transform: scale(.5,.5); */
 }
-
 .letter>* {
   position: absolute;
 }
-
 .stem {
   width:30px;
   transform-origin: 50% 100%;
@@ -27,12 +26,235 @@ body {
 .counter {
   height:350px;
 }
+.counter .circle1 {    ********
+  position:absolute;
+  top:-0.667px;
+  left:32.333px;
+}
+.counter .circle1 {
+  position:absolute;
+  top:4.466px;
+  left:106.898px;
+}
+.counter .circle2 {
+  position:absolute;
+  top:-0.235px;
+  left:117.797px;
+}
+.counter .circle3 {
+  position:absolute;
+  top:4.262px;
+  left:136.441px;
+}
+.counter .circle4 {
+  position:absolute;
+  top:23.138px;
+  left:163.272px;
+}
+.counter .circle5 {
+  position:absolute;
+  top:39.659px;
+  left:179.481px;
+}
+.counter .circle6 {
+  position:absolute;
+  top:47.687px;
+  left:183.68px;
+}
+.counter .circle7 {
+  position:absolute;
+  top:67.973px;
+  left:186.434px;
+}
+.counter .circle8 {
+  position:absolute;
+  top:97.216px;
+  left:200.364px;
+}
+.counter .circle9 {
+  position:absolute;
+  top:118.43px;
+  left:209.072px;
+}
+.counter .circle10 {
+  position:absolute;
+  top:129.473px;
+  left:205.156px;
+}
+.counter .circle11 {
+  position:absolute;
+  top:149.869px;
+  left:201.264px;
+}
+.counter .circle12 {
+  position:absolute;
+  top:180.738px;
+  left:207.942px;
+}
+.counter .circle13 {
+  position:absolute;
+  top:201.765px;
+  left:199.895px;
+}
+.counter .circle14 {
+  position:absolute;
+  top:232.065px;
+  left:208.606px;
+}
+.counter .circle15 {
+  position:absolute;
+  top:242.829px;
+  left:199.671px;
+}
+.counter .circle16 {
+  position:absolute;
+  top:263.431px;
+  left:202.357px;
+}
+.counter .circle17 {
+  position:absolute;
+  top:271.82px;
+  left:182.97px;
+}
+.counter .circle18 {
+  position:absolute;
+  top:301.653px;
+  left:186.406px;
+}
+.counter .circle19 {
+  position:absolute;
+  top:308.024px;
+  left:170.024px;
+}
+.counter .circle20 {
+  position:absolute;
+  top:315.214px;
+  left:142.908px;
+}
+.counter .circle21 {
+  position:absolute;
+  top:330.194px;
+  left:123.811px;
+}
+.counter .circle22 {
+  position:absolute;
+  top:340.871px;
+  left:113.843px;
+}
+.counter .circle23 {
+  position:absolute;
+  top:332.061px;
+  left:94.11px;
+}
+.counter .circle24 {
+  position:absolute;
+  top:338.649px;
+  left:83.941px;
+}
+.counter .circle25 {
+  position:absolute;
+  top:324.489px;
+  left:65.692px;
+}
+.counter .circle26 {
+  position:absolute;
+  top:303.512px;
+  left:41.493px;
+}
+.counter .circle27 {
+  position:absolute;
+  top:306.082px;
+  left:32.389px;
+}
+.counter .circle28 {
+  position:absolute;
+  top:286.127px;
+  left:22.685px;
+}
+.counter .circle29 {
+  position:absolute;
+  top:279.587px;
+  left:16.975px;
+}
+.counter .circle30 {
+  position:absolute;
+  top:248.346px;
+  left:6.945px;
+}
+.counter .circle31 {
+  position:absolute;
+  top:228.898px;
+  left:5.199px;
+}
+.counter .circle32 {
+  position:absolute;
+  top:198.196px;
+  left:1.372px;
+}
+.counter .circle33 {
+  position:absolute;
+  top:178.19px;
+  left:1.298px;
+}
+.counter .circle34 {
+  position:absolute;
+  top:147.283px;
+  left:-0.337px;
+}
+.counter .circle35 {
+  position:absolute;
+  top:137.117px;
+  left:2.495px;
+}
+.counter .circle36 {
+  position:absolute;
+  top:116.764px;
+  left:2.652px;
+}
+.counter .circle37 {
+  position:absolute;
+  top:106.003px;
+  left:5.862px;
+}
+.counter .circle38 {
+  position:absolute;
+  top:77.921px;
+  left:6.778px;
+}
+.counter .circle39 {
+  position:absolute;
+  top:57.776px;
+  left:17.443px;
+}
+.counter .circle40 {
+  position:absolute;
+  top:47.741px;
+  left:27.397px;
+}
+.counter .circle41 {
+  position:absolute;
+  top:31.068px;
+  left:32.805px;
+}
+.counter .circle42 {
+  position:absolute;
+  top:10.21px;
+  left:47.51px;
+}
+.counter .circle43 {
+  position:absolute;
+  top:0.895px;
+  left:77.061px;
+}
 
 .bowl {
   position:absolute;
   left:20px;
   height:220px;
   width:220px;
+}
+.bowlbottom {         *********
+
 }
 /* BOWL */
 .bowl .circle1 {
@@ -237,23 +459,23 @@ body {
   width: 220px;
   height: 220px;
   left: 32px;
-
+}
 /* ********** LETTER C ********** */
 .c {
   width:390px;
-  left: 195px;
 }
 .c .bowl {
   width:390px;
-  left: 195px
 }
 
 /* ********** LETTER D ********** */
 .d {
   width:390px;
+  /* left:0px; */
 }
 .d .stem.leftLeg {
 }
+
 .d .bowl {
   width:390px;
   left: 195px
@@ -261,7 +483,6 @@ body {
 /* ********** LETTER E ********** */
 .e {
     width:390px;
-    /* left:195px; */
 }
 .letteretop {
   transform: scaleX(-1) rotate(90deg);
@@ -276,12 +497,12 @@ body {
 .letterebottom {
   transform: rotate(90deg) scaleX(-1);
   bottom: -82px;
+  left: 94px;
 }
 /* ********** LETTER F ********** */
 .f {
     width:390px;
 }
-
 .letterftop {
   transform: scaleX(-1) rotate(90deg);
   bottom: 241px;
@@ -305,7 +526,6 @@ left: 49px;
 }
 .g .bowl {
   width:390px;
-  left: 195px;
 }
 /* ********** LETTER H ********** */
 .h {
@@ -376,6 +596,7 @@ left: 49px;
   transform: scaleX(-1) rotate(43deg);
   left: 160px;
   bottom: -76px;
+
 }
 
 /* ********** LETTER L ********** */
@@ -398,7 +619,6 @@ left: 49px;
 }
 .minnerleftleg {
   transform: rotate(159deg);
-  left: 59px;
 }
 .minnerrightleg {
   transform: scaleX(-1) rotate(158deg);
@@ -426,7 +646,6 @@ left: 49px;
 
 .o .bowl {
   width:390px;
-  left: 195px;
 }
 /* ********** LETTER P ********** */
 .p {
@@ -687,6 +906,7 @@ background-color: white;
 -moz-border-radius: 50px;
 -webkit-border-radius: 50px;
 border-radius: 50px;
+
 }
 
 .circle6 {
