@@ -12,11 +12,12 @@ body {
   height:350px;
   float:left;
   position: relative;
-  /* transform: scale(.5,.5); */
 }
+
 .letter>* {
   position: absolute;
 }
+
 .stem {
   width:30px;
   transform-origin: 50% 100%;
@@ -250,10 +251,8 @@ body {
 /* ********** LETTER D ********** */
 .d {
   width:390px;
-  /* left:0px; */
 }
 .d .stem.leftLeg {
-  left: 2px;
 }
 .d .bowl {
   width:390px;
@@ -277,7 +276,6 @@ body {
 .letterebottom {
   transform: rotate(90deg) scaleX(-1);
   bottom: -82px;
-  left: 94px;
 }
 /* ********** LETTER F ********** */
 .f {
@@ -378,7 +376,6 @@ left: 49px;
   transform: scaleX(-1) rotate(43deg);
   left: 160px;
   bottom: -76px;
-
 }
 
 /* ********** LETTER L ********** */
@@ -690,7 +687,6 @@ background-color: white;
 -moz-border-radius: 50px;
 -webkit-border-radius: 50px;
 border-radius: 50px;
-
 }
 
 .circle6 {
