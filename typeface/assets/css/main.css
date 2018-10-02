@@ -582,10 +582,6 @@ body {
   left:14.124px;
 }
 
-
-
-
-
 /* BOWL */
 .bowl {
   position:absolute;
@@ -791,10 +787,6 @@ body {
   width:390px;
 }
 
-.b .stem.leftLeg {
-  left: 2px;
-}
-
 .b .bowl {
   width: 220px;
   height: 220px;
@@ -811,9 +803,6 @@ body {
 /* ********** LETTER D ********** */
 .d {
   width:390px;
-  /* left:0px; */
-}
-.d .stem.leftLeg {
 }
 
 .d .bowl {
@@ -857,7 +846,6 @@ body {
 /* ********** LETTER G ********** */
 .g {
     width:390px;
-    left:195px;
 }
 .g .crossbar {
 transform: rotate(90deg);
@@ -885,7 +873,6 @@ left: 49px;
 /* ********** LETTER I ********** */
 .i {
     width:390px;
-    left:193px;
 }
 
 .letteristem {
@@ -916,17 +903,13 @@ left: 49px;
 }
 .j .bowl {
   width:390px;
-  left: 195px;
+  left:195px;
 }
 /* ********** LETTER K ********** */
 .k {
-    width:390px;
-    left: 195px;
+  width:390px;
 }
 
-.kleftleg {
-
-}
 .krightleg {
   transform: scaleX(-1) rotate(131deg);
   left: 98px;
@@ -950,12 +933,7 @@ left: 49px;
 }
 /* ********** LETTER M ********** */
 .m {
-    width:390px;
-    left:195px;
-}
-
-.m .stem.leftLeg {
-
+  width:390px;
 }
 .minnerleftleg {
   transform: rotate(159deg);
@@ -970,7 +948,7 @@ left: 49px;
 }
 /* ********** LETTER N ********** */
 .n {
-    width:390px;
+  width:390px;
 }
 .ninnerleftleg {
   transform: rotate(159deg);
@@ -981,7 +959,7 @@ left: 49px;
 }
 /* ********** LETTER O ********** */
 .o {
-    width:390px;
+  width:390px;
 }
 
 .o .bowl {
@@ -1020,14 +998,14 @@ left: 49px;
 }
 /* ********** LETTER S ********** */
 .s {
-    width:390px;
+  width:390px;
 }
 .s .topcurve {
  width: 368px;
 }
 /* ********** LETTER T ********** */
 .t {
-    width:390px;
+  width:390px;
 }
 .t .stem.leftLeg {
   left: 0px;
@@ -1038,7 +1016,7 @@ left: 49px;
 }
 /* ********** LETTER U ********** */
 .u {
-    width:390px;
+  width:390px;
 }
 /* ********** LETTER V ********** */
 .v {
@@ -1058,7 +1036,6 @@ left: 49px;
 /* ********** LETTER W ********** */
 .w {
   width:390px;
-  left: 168px;
 }
 
 .w .stem.leftLeg {
