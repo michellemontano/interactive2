@@ -12,8 +12,8 @@ body {
   height:350px;
   float:left;
   position: relative;
-  /* transform: scale(.5,.5); */
 }
+
 .letter>* {
   position: absolute;
 }
@@ -22,11 +22,26 @@ body {
   transform-origin: 50% 100%;
   position: absolute;
 }
+.stem div {
+    transition: transform 200ms ease-in;
+}
+
+.stem:hover div {
+    transform:scale(0);
+}
 
 /* CIRCLE */
+
 .counter {
   height:390px;
   width:390px;
+}
+.counter div {
+  transition: transform 200ms ease-in;
+}
+
+.counter:hover div {
+  transform:scale(0);
 }
 .counter .circle1 {
   position:absolute;
@@ -253,11 +268,27 @@ body {
   height: 390;
   width:390;
 }
+.sshape div {
+    transition: transform 200ms ease-in;
+}
+
+.sshape:hover div {
+    transform:scale(0);
+}
+
 /* D SHAPE */
 .dshape {
   width:390;
   height:390;
 }
+.dshape div {
+    transition: transform 200ms ease-in;
+}
+
+.dshape:hover div {
+    transform:scale(0);
+}
+
 .dshape .circle2 {
   position:absolute;
   top:5.466px;
@@ -401,6 +432,14 @@ body {
 
 
 /* S SHAPE */
+.sshape div {
+    transition: transform 200ms ease-in;
+}
+
+.sshape:hover div {
+    transform:scale(0);
+}
+
 .sshape .circle2 {
   position:absolute;
   top:19.545px;
@@ -590,9 +629,14 @@ body {
   height:220px;
   width:220px;
 }
-.bowlbottom {         *********
-
+.bowl div {
+    transition: transform 200ms ease-in;
 }
+
+.bowl:hover div {
+    transform:scale(0);
+}
+
 /* BOWL */
 .bowl .circle1 {
     position:absolute;
@@ -686,15 +730,15 @@ body {
 }
 
 /* ********** LETTER A ********** */
-.a {
-  width:290px;
-}
-.sixshape div {                           *************** HEY
-  transition: transform 200ms ease-in;
+.crossbar div {
+    transition: transform 200ms ease-in;
 }
 
-.sixshape:hover div {
-  transform:scale(0);
+.crossbar:hover div {
+    transform:scale(0);
+}
+.a {
+  width:290px;
 }
 .a .stem.rightLeg {
   transform: scaleX(-1) rotate(21deg);
@@ -713,130 +757,470 @@ body {
 }
 /* ********** LETTER B ********** */
 .b {
-  width:390px;
+  width:290px;
 }
 
-.b .bowl {
-  width: 220px;
-  height: 220px;
-  left: 32px;
+.b .bshape {
+  width: 290px;
+  height: 290px;
 }
+.bshape div {
+    transition: transform 200ms ease-in;
+}
+
+.bshape:hover div {
+    transform:scale(0);
+}
+.bshape .circle1 {
+  position:absolute;
+  top:5.22px;
+  left:41.807px;
+}
+.bshape .circle2 {
+  position:absolute;
+  top:1.119px;
+  left:52.797px;
+}
+.bshape .circle3 {
+  position:absolute;
+  top:-1.096px;
+  left:74.017px;
+}
+.bshape .circle4 {
+  position:absolute;
+  top:4.414px;
+  left:104.434px;
+}
+.bshape .circle5 {
+  position:absolute;
+  top:11.536px;
+  left:125.288px;
+}
+.bshape .circle6 {
+  position:absolute;
+  top:9.073px;
+  left:136.141px;
+}
+.bshape .circle7 {
+  position:absolute;
+  top:17.097px;
+  left:153.19px;
+}
+.bshape .circle8 {
+  position:absolute;
+  top:39.882px;
+  left:177.075px;
+}
+.bshape .circle9 {
+  position:absolute;
+  top:59.634px;
+  left:190.068px;
+}
+.bshape .circle10 {
+  position:absolute;
+  top:70.902px;
+  left:188.604px;
+}
+.bshape .circle11 {
+  position:absolute;
+  top:91.365px;
+  left:174.946px;
+}
+.bshape .circle12 {
+  position:absolute;
+  top:116.877px;
+  left:164.434px;
+}
+.bshape .circle13 {
+  position:absolute;
+  top:122.683px;
+  left:136.261px;
+}
+.bshape .circle14 {
+  position:absolute;
+  top:143.267px;
+  left:125.751px;
+}
+.bshape .circle15 {
+  position:absolute;
+  top:138.804px;
+  left:104.434px;
+}
+.bshape .circle16 {
+  position:absolute;
+  top:147.341px;
+  left:93.166px;
+}
+.bshape .circle17 {
+  position:absolute;
+  top:136.122px;
+  left:61.993px;
+}
+.bshape .circle18 {
+  position:absolute;
+  top:147.341px;
+  left:50.727px;
+}
+.bshape .circle19 {
+  position:absolute;
+  top:141.633px;
+  left:29.459px;
+}
+/* .bshape .circle20 {
+  position:absolute;
+  top:px;
+  left:px;
+} */
+.bshape .circle21 {
+  position:absolute;
+  top:150.706px;
+  left:156.239px;
+}
+.bshape .circle22 {
+  position:absolute;
+  top:165.145px;
+  left:175.507px;
+}
+.bshape .circle23 {
+  position:absolute;
+  top:171.34px;
+  left:183.531px;
+}
+.bshape .circle24 {
+  position:absolute;
+  top:188.365px;
+  left:200.726px;
+}
+.bshape .circle25 {
+  position:absolute;
+  top:198.926px;
+  left:202.629px;
+}
+.bshape .circle26 {
+  position:absolute;
+  top:221px;
+  left:202.041px;
+}
+.bshape .circle27 {
+  position:absolute;
+  top:253.56px;
+  left:214.165px;
+}
+.bshape .circle28 {
+  position:absolute;
+  top:265.706px;
+  left:206.458px;
+}
+.bshape .circle29 {
+  position:absolute;
+  top:287.096px;
+  left:204.214px;
+}
+.bshape .circle30 {
+  position:absolute;
+  top:293.146px;
+  left:177.992px;
+}
+.bshape .circle31 {
+  position:absolute;
+  top:312.803px;
+  left:160.312px;
+}
+.bshape .circle32 {
+  position:absolute;
+  top:312.047px;
+  left:129.141px;
+}
+.bshape .circle33 {
+  position:absolute;
+  top:323.413px;
+  left:107.971px;
+}
+.bshape .circle34 {
+  position:absolute;
+  top:317.195px;
+  left:76.139px;
+}
+.bshape .circle35 {
+  position:absolute;
+  top:329.828px;
+  left:65.166px;
+}
+.bshape .circle36 {
+  position:absolute;
+  top:323.998px;
+  left:42.898px;
+}
+.bshape .circle37 {
+  position:absolute;
+  top:329.998px;
+  left:30.971px;
+}
+
+
 /* ********** LETTER C ********** */
 .c {
-  width:390px;
+  width:290px;
 }
-.c .bowl {
-  width:390px;
+.c .counter {
+  width:290px;
 }
 
 /* ********** LETTER D ********** */
 .d {
-  width:390px;
+  width:290px;
 }
 
 .d .bowl {
-  width:390px;
-  left: 195px
+  width:290px;
 }
 /* ********** LETTER E ********** */
 .e {
-    width:390px;
+    width:290px;
 }
 .letteretop {
   transform: scaleX(-1) rotate(90deg);
   bottom: 240px;
   left: 94px;
 }
+.letteretop div {
+    transition: transform 200ms ease-in;
+}
+
+.letteretop:hover div {
+    transform:scale(0);
+}
 .e .crossbar {
   transform: rotate(90deg);
-  bottom: 52px;
+  bottom: 116px;
   left: 68px;
 }
+
 .letterebottom {
   transform: rotate(90deg) scaleX(-1);
   bottom: -82px;
   left: 94px;
 }
+.letterebottom div {
+    transition: transform 200ms ease-in;
+}
+
+.letterebottom:hover div {
+    transform:scale(0);
+}
 /* ********** LETTER F ********** */
 .f {
-    width:390px;
+    width:290px;
 }
 .letterftop {
   transform: scaleX(-1) rotate(90deg);
   bottom: 241px;
-  left: 20px;
+  left:94px;
+}
+.letterftop div {
+    transition: transform 200ms ease-in;
+}
+
+.letterftop:hover div {
+    transform:scale(0);
 }
 
 .f .crossbar {
   transform: rotate(90deg);
-  bottom: 33px;
-  left: 17px;
+  bottom: 116px;
+  left: 65px;
 }
 /* ********** LETTER G ********** */
 .g {
-    width:390px;
+  width:290px;
 }
 .g .crossbar {
-transform: rotate(90deg);
-bottom: 40px;
-left: 49px;
+  transform: rotate(90deg);
+  bottom: 85px;
+  left: 156px;
 }
-.g .bowl {
-  width:390px;
+.g .counter {
+  width:290px;
 }
 /* ********** LETTER H ********** */
 .h {
-    width:390px;
+  width:390px;
 }
 
 .h .crossbar {
   transform: rotate(90deg)scaleX(-1);
-  bottom: 24px;
-  left: 27px;
+  bottom: 112px;
+  left: 101px;
 }
 
 .h .stem.rightLeg {
-  left: 51px;
-  transform: scaleX(-1)
+  left: 202px;
+  transform: scaleX(-1);
 }
 /* ********** LETTER I ********** */
 .i {
-    width:390px;
+    width:290px;
 }
 
 .letteristem {
-  left: 31px;
+  left: 110px;
   bottom: 0px;
 }
 
 .letteritop {
   transform: scaleX(-1) rotate(90deg);
   bottom: 215px;
-  left: 30px;
+  left: 112px;
 }
 
 .letteribottom {
   transform: rotate(90deg) scaleX(-1);
   bottom: -107px;
-  left: 29px;
+  left: 112px;
 }
 /* ********** LETTER J ********** */
 .j {
-    width:390px;
+    width:290px;
 }
 
 .letterjtop {
   transform: scaleX(-1) rotate(90deg);
-  bottom: 280px;
-  left: 20%;
+  bottom: 237px;
+  left: 123px;
 }
-.j .bowl {
+.jshape {
   width:390px;
-  left:195px;
+  top:20px;
 }
+.jshape .circle1 {
+  position:absolute;
+  top:-0.259px;
+  left:159.223px;
+}
+.jshape .circle2 {
+  position:absolute;
+  top:11.146px;
+  left:154.522px;
+}
+.jshape .circle3 {
+  position:absolute;
+  top:31.934px;
+  left:149.14px;
+}
+.jshape .circle4 {
+  position:absolute;
+  top:62.888px;
+  left:153.786px;
+}
+.jshape .circle5 {
+  position:absolute;
+  top:83.406px;
+  left:158.685px;
+}
+.jshape .circle6 {
+  position:absolute;
+  top:94.374px;
+  left:153.685px;
+}
+.jshape .circle7 {
+  position:absolute;
+  top:115.625px;
+  left:149.14px;
+}
+.jshape .circle8 {
+  position:absolute;
+  top:146.13px;
+  left:154.236px;
+}
+.jshape .circle9 {
+  position:absolute;
+  top:167.097px;
+  left:158.865px;
+}
+.jshape .circle10 {
+  position:absolute;
+  top:178.065px;
+  left:153.685px;
+}
+.jshape .circle11 {
+  position:absolute;
+  top:199.317px;
+  left:149.69px;
+}
+.jshape .circle12 {
+  position:absolute;
+  top:230.372px;
+  left:156.888px;
+}
+.jshape .circle13 {
+  position:absolute;
+  top:251.073px;
+  left:149.69px;
+}
+.jshape .circle14 {
+  position:absolute;
+  top:282.072px;
+  left:157.831px;
+}
+.jshape .circle15 {
+  position:absolute;
+  top:292.59px;
+  left:148.73px;
+}
+.jshape .circle16 {
+  position:absolute;
+  top:311.95px;
+  left:148.224px;
+}
+.jshape .circle17 {
+  position:absolute;
+  top:308.336px;
+  left:118.306px;
+}
+.jshape .circle18 {
+  position:absolute;
+  top:332.828px;
+  left:112.985px;
+}
+.jshape .circle19 {
+  position:absolute;
+  top:327.828px;
+  left:92.569px;
+}
+.jshape .circle20 {
+  position:absolute;
+  top:318.974px;
+  left:61.69px;
+}
+.jshape .circle21 {
+  position:absolute;
+  top:320.12px;
+  left:40.812px;
+}
+.jshape .circle22 {
+  position:absolute;
+  top:316.861px;
+  left:30.395px;
+}
+.jshape .circle23 {
+  position:absolute;
+  top:296.994px;
+  left:18.238px;
+}
+.jshape .circle24 {
+  position:absolute;
+  top:286.578px;
+  left:18.327px;
+}
+.jshape .circle25 {
+  position:absolute;
+  top:265.61px;
+  left:11.08px;
+}
+
 /* ********** LETTER K ********** */
 .k {
-  width:390px;
+  width:290px;
 }
 
 .krightleg {
@@ -847,25 +1231,26 @@ left: 49px;
 .krightleg2 {
   transform: scaleX(-1) rotate(43deg);
   left: 160px;
-  bottom: -76px;
+  bottom: -49px;
 
 }
 
 /* ********** LETTER L ********** */
 .l {
-    width:390px;
+    width:290px;
 }
 .letterlbottom {
   transform: rotate(90deg);
   bottom: -77px;
-  left: 29px;
+  left: 110px;
 }
 /* ********** LETTER M ********** */
 .m {
-  width:390px;
+  width:290px;
 }
 .minnerleftleg {
   transform: rotate(159deg);
+  left:61px;
 }
 .minnerrightleg {
   transform: scaleX(-1) rotate(158deg);
@@ -877,45 +1262,45 @@ left: 49px;
 }
 /* ********** LETTER N ********** */
 .n {
-  width:390px;
+  width:290px;
 }
 .ninnerleftleg {
-  transform: rotate(159deg);
+  transform: rotate(148deg);
   left: 85px;
 }
 .n .stem.rightLeg {
-  left: 177px;
+  left: 205px;
 }
 /* ********** LETTER O ********** */
 .o {
-  width:390px;
+  width:290px;
 }
 
 .o .bowl {
-  width:390px;
+  width:290px;
 }
 /* ********** LETTER P ********** */
 .p {
-    width:390px;
+    width:290px;
 }
 .p .stem.leftLeg {
 
 }
 .p .bowl {
- width: 368px;
+ width: 290px;
 }
 /* ********** LETTER Q ********** */
 .q {
-    width:390px;
+    width:290px;
 }
 .q .crossbar {
   transform: rotate(133deg);
-  left: 259px;
-  top: 385px;
+  left: 247px;
+  top: 354px;
 }
 /* ********** LETTER R ********** */
 .r {
-    width:390px;
+    width:290px;
 }
 .rleg {
   transform: rotate(143deg);
@@ -923,48 +1308,52 @@ left: 49px;
   top: 141px;
 }
 .r .bowl {
- width: 368px;
+ width: 290px;
 }
 /* ********** LETTER S ********** */
 .s {
-  width:390px;
+  width:290px;
 }
 .s .topcurve {
- width: 368px;
+ width: 290px;
 }
 /* ********** LETTER T ********** */
 .t {
-  width:390px;
+  width:290px;
 }
 .t .stem.leftLeg {
-  left: 0px;
+  left: 106px;
 }
 .ttop {
   transform: rotate(90deg);
   top: -95px;
+  left:96px;
 }
 /* ********** LETTER U ********** */
 .u {
-  width:390px;
+  width:290px;
+}
+.u .counter {
+
 }
 /* ********** LETTER V ********** */
 .v {
-  width:390px;
+  width:290px;
 }
 
 .v>.leftLeg {
-  transform: rotate(-25deg) scaleX(-1);
+  transform: rotate(-21deg) scaleX(-1);
       left: 131px;
       top: 0;
 }
 .v>.rightLeg {
-  transform: rotate(25deg);
+  transform: rotate(22deg);
   left: 146px;
   top: 0px;
 }
 /* ********** LETTER W ********** */
 .w {
-  width:390px;
+  width:393px;
 }
 
 .w .stem.leftLeg {
@@ -989,7 +1378,7 @@ top: -316px;
 }
 /* ********** LETTER X ********** */
 .x {
-   width:390px;
+   width:290px;
 }
 
 .x .stem.leftLeg {
@@ -1004,12 +1393,12 @@ top: -316px;
 }
 /* ********** LETTER Y ********** */
 .y {
-   width:390px;
+   width:290px;
 }
 
 /* ********** LETTER Z ********** */
 .z {
-    width:390px;
+    width:290px;
 }
 .ztop {
   transform: rotate(90deg);
@@ -1026,6 +1415,10 @@ top:0px
   left: -8px;
   top: 200px;
 }
+
+
+
+
 /* ********** 1 ********** */
 .one {
   width:390px;
@@ -1036,23 +1429,37 @@ top:0px
 }
 /* ********** 2 ********** */
 .two {
-  width:390px;
+  width:290px;
 }
 /* ********** 3 ********** */
 .three {
-  width:390px;
+  width:290px;
 }
+
 /* ********** 4 ********** */
 .four {
-  width:390px;
+  width:290px;
 }
 .four .stem.rightLeg {
-  left: 265px;
+  left: 167px;
   transform: scaleX(-1);
+}
+.four .crossbar {
+  transform: rotate(90deg);
+  left:56px;
+  top:0px;
+}
+.fourface {
+  top:0;
+  left:29px;
+  transform: rotate(30deg);
 }
 /* ********** 5 ********** */
 .five {
   width:390px;
+}
+.fiveshape {
+  
 }
 /* ********** 6 ********** */
 .six {
