@@ -18,7 +18,8 @@ body {
 }
 
 .hello {
-  height: 100px;
+  height: 900px;
+  width:
 }
 
 ANIMATION
@@ -2588,7 +2589,8 @@ top: -316px;
   left: 265px;
 }
 .seven .crossbar {
-  top:0px;
+  top: -261px;
+  left: -17px;
 }
 /* ********** 8 ********** */
 .eight {
@@ -2605,7 +2607,8 @@ top: -316px;
 }
 .nineshape {
   transform: scaleX(-1);
-  left:0px;
+  left:189px;
+  top:-54px;
 }
 .nineshape .circle1 {
   position:absolute;
