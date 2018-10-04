@@ -17,6 +17,10 @@ body {
   position: relative;
 }
 
+.hello {
+  height: 100px;
+}
+
 ANIMATION
 .leftLeg div {
     transition: transform 200ms ease-in;
@@ -1899,17 +1903,17 @@ top: -316px;
 }
 .ztop {
   transform: rotate(90deg);
-  left: 0px;
-  top: -72px;
+  left: 84px;
+  top: -71px;
 }
 .zmiddle {
-transform: rotate(30deg);
-left:0px;
-top:0px
+  transform: rotate(30deg);
+  left: 107px;
+  top: 0px;
 }
 .zbottom {
   transform: rotate(90deg);
-  left: -8px;
+  left: 98px;
   top: 200px;
 }
 
@@ -1926,6 +1930,215 @@ top:0px
 .two {
   width:290px;
 }
+.twoshape .circle1 {
+  position:absolute;
+  top:89.302px;
+  left:1.758px;
+}
+.twoshape .circle2 {
+  position:absolute;
+  top:66.756px;
+  left:3.112px;
+}
+
+.twoshape .circle3 {
+  position:absolute;
+  top:38.503px;
+  left:13.738px;
+}
+
+.twoshape .circle4 {
+  position:absolute;
+  top:20.881px;
+  left:34.83px;
+}
+
+.twoshape .circle5 {
+  position:absolute;
+  top:13.655px;
+  left:55.072px;
+}
+
+.twoshape .circle6 {
+  position:absolute;
+  top:4.978px;
+  left:66.618px;
+}
+
+.twoshape .circle7 {
+  position:absolute;
+  top:-0.941px;
+  left:90.113px;
+}
+
+.twoshape .circle8 {
+  position:absolute;
+  top:7.735px;
+  left:123.527px;
+}
+
+.twoshape .circle9 {
+  position:absolute;
+  top:19.17px;
+  left:146.073px;
+}
+
+.twoshape .circle10 {
+  position:absolute;
+  top:25.2px;
+  left:154.861px;
+}
+
+.twoshape .circle11 {
+  position:absolute;
+  top:40.423px;
+  left:166.407px;
+}
+
+.twoshape .circle12 {
+  position:absolute;
+  top:69.999px;
+  left:179.872px;
+}
+
+.twoshape .circle13 {
+  position:absolute;
+  top:91.898px;
+  left:176.518px;
+}
+
+.twoshape .circle14 {
+  position:absolute;
+  top:112.12px;
+  left:180.084px;
+}
+
+.twoshape .circle15 {
+  position:absolute;
+  top:132.636px;
+  left:164.972px;
+}
+
+.twoshape .circle16 {
+  position:absolute;
+  top:150.614px;
+  left:158.941px;
+}
+
+.twoshape .circle17 {
+  position:absolute;
+  top:159.919px;
+  left:136.992px;
+}
+
+.twoshape .circle18 {
+  position:absolute;
+  top:184.626px;
+  left:128.608px;
+}
+
+.twoshape .circle19 {
+  position:absolute;
+  top:192.495px;
+  left:108.709px;
+}
+
+.twoshape .circle20 {
+  position:absolute;
+  top:207.717px;
+  left:93.971px;
+}
+
+.twoshape .circle21 {
+  position:absolute;
+  top:229.263px;
+  left:67.537px;
+}
+
+.twoshape .circle22 {
+  position:absolute;
+  top:247.132px;
+  left:58.479px;
+}
+
+.twoshape .circle23 {
+  position:absolute;
+  top:255.153px;
+  left:40.67px;
+}
+
+.twoshape .circle24 {
+  position:absolute;
+  top:271.435px;
+  left:33.011px;
+}
+
+.twoshape .circle25 {
+  position:absolute;
+  top:280.738px;
+  left:16.981px;
+}
+
+.twoshape .circle26 {
+  position:absolute;
+  top:302.395px;
+  left:1.87px;
+}
+
+.twoshape .circle27 {
+  position:absolute;
+  top:334.456px;
+  left:1.243px;
+}
+
+.twoshape .circle28 {
+  position:absolute;
+  top:323.264px;
+  left:31.395px;
+}
+
+.twoshape .circle29 {
+  position:absolute;
+  top:330.681px;
+  left:53.345px;
+}
+
+.twoshape .circle30 {
+  position:absolute;
+  top:313.378px;
+  left:65.025px;
+}
+
+.twoshape .circle31 {
+  position:absolute;
+  top:322.102px;
+  left:97.871px;
+}
+
+.twoshape .circle32 {
+  position:absolute;
+  top:315.021px;
+  left:120.285px;
+}
+
+.twoshape .circle33 {
+  position:absolute;
+  top:323.941px;
+  left:152.103px;
+}
+
+.twoshape .circle34 {
+  position:absolute;
+  top:316.183px;
+  left:173.76px;
+}
+
+.twoshape .circle35 {
+  position:absolute;
+  top:329.86px;
+  left:206.983px;
+}
+
 /* ********** 3 ********** */
 .three {
   width:233px;
@@ -2388,7 +2601,230 @@ top:0px
 /* ********** 9 ********** */
 .nine {
   width:290px;
+  transform: scaleY(-1);
 }
+.nineshape {
+  transform: scaleX(-1);
+  left:0px;
+}
+.nineshape .circle1 {
+  position:absolute;
+  top:23.884px;
+  left:186.487px;
+
+}
+.nineshape .circle2 {
+  position:absolute;
+  top:9.967px;
+  left:168.42px;
+
+}
+.nineshape .circle3 {
+  position:absolute;
+  top:-2.886px;
+  left:138.562px;
+}
+.nineshape .circle4 {
+  position:absolute;
+  top:-1.15px;
+  left:117.987px;
+}
+.nineshape .circle5 {
+  position:absolute;
+  top:1.082px;
+  left:106.329px;
+}
+.nineshape .circle6 {
+  position:absolute;
+  top:0.456px;
+  left:84.741px;
+}
+.nineshape .circle7 {
+  position:absolute;
+  top:8.276px;
+  left:55.477px;
+}
+.nineshape .circle8 {
+  position:absolute;
+  top:27.095px;
+  left:37.747px;
+}
+.nineshape .circle9 {
+  position:absolute;
+  top:44.541px;
+  left:32.089px;
+}
+.nineshape .circle10 {
+  position:absolute;
+  top:54.896px;
+  left:19.947px;
+}
+.nineshape .circle11 {
+  position:absolute;
+  top:74.232px;
+  left:5.805px;
+}
+.nineshape .circle12 {
+  position:absolute;
+  top:6.296px;
+  left:105.439px;
+}
+.nineshape .circle13 {
+  position:absolute;
+  top:127.439px;
+  left:0.359px;
+}
+.nineshape .circle14 {
+  position:absolute;
+  top:159.168px;
+  left:4.217px;
+}
+.nineshape .circle15 {
+  position:absolute;
+  top:171.594px;
+  left:0.056px;
+}
+.nineshape .circle16 {
+  position:absolute;
+  top:194.253px;
+  left:1.056px;
+}
+.nineshape .circle17 {
+  position:absolute;
+  top:205.75px;
+  left:-2.337px;
+}
+.nineshape .circle18 {
+  position:absolute;
+  top:232.015px;
+  left:7.198px;
+}
+.nineshape .circle19 {
+  position:absolute;
+  top:248.37px;
+  left:8.572px;
+}
+.nineshape .circle20 {
+  position:absolute;
+  top:267.17px;
+  left:16.321px;
+}
+.nineshape .circle21 {
+  position:absolute;
+  top:297.971px;
+  left:29.908px;
+}
+.nineshape .circle22 {
+  position:absolute;
+  top:317.629px;
+  left:44.889px;
+}
+.nineshape .circle23 {
+  position:absolute;
+  top:318.235px;
+  left:56.818px;
+}
+.nineshape .circle24 {
+  position:absolute;
+  top:333.591px;
+  left:74.851px;
+}
+.nineshape .circle25 {
+  position:absolute;
+  top:328.984px;
+  left:86.974px;
+}
+.nineshape .circle26 {
+  position:absolute;
+  top:324.913px;
+  left:109.077px;
+}
+.nineshape .circle27 {
+  position:absolute;
+  top:333.216px;
+  left:140.716px;
+}
+.nineshape .circle28 {
+  position:absolute;
+  top:320.539px;
+  left:151.465px;
+}
+.nineshape .circle29 {
+  position:absolute;
+  top:317.629px;
+  left:173.749px;
+}
+.nineshape .circle30 {
+  position:absolute;
+  top:289.132px;
+  left:175.64px;
+}
+.nineshape .circle31 {
+  position:absolute;
+  top:320.539px;
+  left:151.465px;
+}
+.nineshape .circle32 {
+  position:absolute;
+  top:238.652px;
+  left:193.579px;
+}
+.nineshape .circle33 {
+  position:absolute;
+  top:216.427px;
+  left:199.369px;
+}
+.nineshape .circle34 {
+  position:absolute;
+  top:183.95px;
+  left:189.227px;
+}
+.nineshape .circle35 {
+  position:absolute;
+  top:171.291px;
+  left:196.782px;
+}
+.nineshape .circle36 {
+  position:absolute;
+  top:151.704px;
+  left:182.711px;
+}
+.nineshape .circle37 {
+  position:absolute;
+  top:141.349px;
+  left:176.356px;
+}
+.nineshape .circle38 {
+  position:absolute;
+  top:121.186px;
+  left:144.746px;
+}
+.nineshape .circle39 {
+  position:absolute;
+  top:117.155px;
+  left:123.665px;
+}
+.nineshape .circle40 {
+  position:absolute;
+  top:117.155px;
+  left:109.006px;
+}
+.nineshape .circle41 {
+  position:absolute;
+  top:118.343px;
+  left:83.696px;
+}
+.nineshape .circle42 {
+  position:absolute;
+  top:125.903px;
+  left:50.78px;
+}
+.nineshape .circle43 {
+  position:absolute;
+  top:148.521px;
+  left:24.886px;
+}
+
 copy the 6 letter and flip it HERE
 /* ********** 0 ********** */
 .zero {
@@ -2567,6 +3003,10 @@ copy the 6 letter and flip it HERE
   top:71.578px;
   left:45.697px;
 }
+.quoteshapetwo{
+  transform: scaleX(-1);
+}
+
 Flip quoteshape to make right quote
 
 /* ********** , ********** */
@@ -2574,27 +3014,32 @@ Flip quoteshape to make right quote
   width:183px;
 }
 .commashape .circle1 {
-  position:absolute;
-  top:321.084px;
-  left:0px;
+  position: absolute;
+  top: 374.084px;
+  left: 9px;
 }
 .bauble{
   width:auto;
-  height:200px;
+  height:2000px;
 }
 .commashape .circle2 {
-  position:absolute;
-  top:350.512px;
-  left:11.915px;
+  position: absolute;
+  top: 350.512px;
+  left: 11.915px;
 }
 .commashape .circle3 {
-  position:absolute;
-  top:371.091px;
-  left:10.548px;
+  position: absolute;
+  top: 320.091px;
+  left: 0.548px;
 }
 /* ********** . ********** */
 .period {
   width:290px;
+}
+.period .stem.leftLeg {
+  position: absolute;
+  top: 321.084px;
+  left: 0px;
 }
 /* ********** CIRCLES ********** */
 
