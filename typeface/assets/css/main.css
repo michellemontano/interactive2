@@ -2396,7 +2396,7 @@ copy the 6 letter and flip it HERE
 }
 .zero .stem.rightLeg {
   left: 265px;
-  transform: scaleX(-1) rotate: 30deg;
+  transform: rotate: 30deg;
 }
 /* ********** ! ********** */
 .exclaim {
@@ -2573,30 +2573,24 @@ Flip quoteshape to make right quote
 .comma {
   width:183px;
 }
-.quoteshape .circle1 {
+.commashape .circle1 {
   position:absolute;
-  top:1.341px;
-  left:33.401px;
+  top:321.084px;
+  left:0px;
 }
-.quoteshape .circle2 {
-  position:absolute;
-  top:10.369px;
-  left:19.739px;
+.bauble{
+  width:auto;
+  height:200px;
 }
-.quoteshape .circle3 {
+.commashape .circle2 {
   position:absolute;
-  top:28.452px;
-  left:1.359px;
+  top:350.512px;
+  left:11.915px;
 }
-.quoteshape .circle4 {
+.commashape .circle3 {
   position:absolute;
-  top:59.536px;
-  left:2.349px;
-}
-.quoteshape .circle5 {
-  position:absolute;
-  top:82.619px;
-  left:7.345px;
+  top:371.091px;
+  left:10.548px;
 }
 /* ********** . ********** */
 .period {
