@@ -23,6 +23,13 @@ body {
 }
 
 ANIMATION
+.crossbar div {
+    transition: transform 200ms ease-in;
+}
+.crossbar:hover div {
+    transform:scale(0);
+}
+
 .leftLeg div {
     transition: transform 200ms ease-in;
 }
