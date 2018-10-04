@@ -10,9 +10,277 @@ body {
 
 .letter {
   height:350px;
+  width: 290px;
+  margin-left:70px;
+  margin-top:100px;
   float:left;
   position: relative;
 }
+
+ANIMATION
+.leftLeg div {
+    transition: transform 200ms ease-in;
+}
+.leftLeg:hover div {
+    transform:scale(0);
+}
+
+.rightLeg div {
+    transition: transform 200ms ease-in;
+}
+.rightLeg:hover div {
+    transform:scale(0);
+}
+
+.stem div {
+    transition: transform 200ms ease-in;
+}
+.stem:hover div {
+    transform:scale(0);
+}
+
+.bshape div {
+    transition: transform 200ms ease-in;
+}
+.bshape:hover div {
+    transform:scale(0);
+}
+
+.counter div {
+    transition: transform 200ms ease-in;
+}
+.counter:hover div {
+    transform:scale(0);
+}
+
+.dshape div {
+    transition: transform 200ms ease-in;
+}
+.dshape:hover div {
+    transform:scale(0);
+}
+
+.letteretop div {
+    transition: transform 200ms ease-in;
+}
+.letteretop:hover div {
+    transform:scale(0);
+}
+
+.letterebottom div {
+    transition: transform 200ms ease-in;
+}
+.letterebottom:hover div {
+    transform:scale(0);
+}
+
+.letterftop div {
+    transition: transform 200ms ease-in;
+}
+.letterftop:hover div {
+    transform:scale(0);
+}
+
+.letteristem div {
+    transition: transform 200ms ease-in;
+}
+.letteristem:hover div {
+    transform:scale(0);
+}
+
+.letteribottom div {
+    transition: transform 200ms ease-in;
+}
+.letteribottom:hover div {
+    transform:scale(0);
+}
+
+.letterjtop div {
+    transition: transform 200ms ease-in;
+}
+.letterjtop:hover div {
+    transform:scale(0);
+}
+
+.jshape div {
+    transition: transform 200ms ease-in;
+}
+.jshape:hover div {
+    transform:scale(0);
+}
+
+.kleftleg div {
+    transition: transform 200ms ease-in;
+}
+.kleftleg:hover div {
+    transform:scale(0);
+}
+
+.krightleg div {
+    transition: transform 200ms ease-in;
+}
+.krightleg:hover div {
+    transform:scale(0);
+}
+
+.krightleg2 div {
+    transition: transform 200ms ease-in;
+}
+.krightleg2:hover div {
+    transform:scale(0);
+}
+
+.letterlbottom div {
+    transition: transform 200ms ease-in;
+}
+.letterlbottom:hover div {
+    transform:scale(0);
+}
+
+.minnerleftleg div {
+    transition: transform 200ms ease-in;
+}
+.minnerleftleg:hover div {
+    transform:scale(0);
+}
+
+.minnerrightleg div {
+    transition: transform 200ms ease-in;
+}
+.minnerrightleg:hover div {
+    transform:scale(0);
+}
+
+.ninnerleftleg div {
+    transition: transform 200ms ease-in;
+}
+.ninnerleftleg:hover div {
+    transform:scale(0);
+}
+
+.rleg div {
+    transition: transform 200ms ease-in;
+}
+.rleg:hover div {
+    transform:scale(0);
+}
+
+.sshape div {
+    transition: transform 200ms ease-in;
+}
+.sshape:hover div {
+    transform:scale(0);
+}
+
+.ttop div {
+    transition: transform 200ms ease-in;
+}
+.ttop:hover div {
+    transform:scale(0);
+}
+
+.ushape div {
+    transition: transform 200ms ease-in;
+}
+.ushape:hover div {
+    transform:scale(0);
+}
+
+.winnerleft div {
+    transition: transform 200ms ease-in;
+}
+.winnerleft:hover div {
+    transform:scale(0);
+}
+
+.winnerright div {
+    transition: transform 200ms ease-in;
+}
+.winnerright:hover div {
+    transform:scale(0);
+}
+
+.yshape div {
+    transition: transform 200ms ease-in;
+}
+.yshape:hover div {
+    transform:scale(0);
+}
+
+.ztop div {
+    transition: transform 200ms ease-in;
+}
+.ztop:hover div {
+    transform:scale(0);
+}
+
+.zmiddle div {
+    transition: transform 200ms ease-in;
+}
+.zmiddle:hover div {
+    transform:scale(0);
+}
+
+.zbottom div {
+    transition: transform 200ms ease-in;
+}
+.zbottom:hover div {
+    transform:scale(0);
+}
+
+.twoshape div {
+    transition: transform 200ms ease-in;
+}
+.twoshape:hover div {
+    transform:scale(0);
+}
+
+.fiveshape div {
+    transition: transform 200ms ease-in;
+}
+.fiveshape:hover div {
+    transform:scale(0);
+}
+
+.sixshape div {
+    transition: transform 200ms ease-in;
+}
+.sixshape:hover div {
+    transform:scale(0);
+}
+
+.sshape div {
+    transition: transform 200ms ease-in;
+}
+.sshape:hover div {
+    transform:scale(0);
+}
+
+.quoteshape div {
+    transition: transform 200ms ease-in;
+}
+.quoteshape:hover div {
+    transform:scale(0);
+}
+
+.commashape div {
+    transition: transform 200ms ease-in;
+}
+.commashape:hover div {
+    transform:scale(0);
+}
+
+.questionshape div {
+    transition: transform 200ms ease-in;
+}
+.questionshape:hover div {
+    transform:scale(0);
+}
+
+
+
+
+
 
 .letter>* {
   position: absolute;
@@ -22,13 +290,6 @@ body {
   transform-origin: 50% 100%;
   position: absolute;
 }
-.stem div {
-    transition: transform 200ms ease-in;
-}
-
-.stem:hover div {
-    transform:scale(0);
-}
 
 /* CIRCLE */
 
@@ -36,13 +297,7 @@ body {
   height:390px;
   width:390px;
 }
-.counter div {
-  transition: transform 200ms ease-in;
-}
 
-.counter:hover div {
-  transform:scale(0);
-}
 .counter .circle1 {
   position:absolute;
   top:-0.667px;
@@ -268,167 +523,7 @@ body {
   height: 390;
   width:390;
 }
-.sshape div {
-    transition: transform 200ms ease-in;
-}
 
-.sshape:hover div {
-    transform:scale(0);
-}
-
-/* D SHAPE */
-.dshape {
-  width:390;
-  height:390;
-}
-.dshape div {
-    transition: transform 200ms ease-in;
-}
-
-.dshape:hover div {
-    transform:scale(0);
-}
-
-.dshape .circle2 {
-  position:absolute;
-  top:5.466px;
-  left:43.104;
-}
-.dshape .circle3 {
-  position:absolute;
-  top:-0.883px;
-  left:64.277px;
-}
-.dshape .circle4 {
-  position:absolute;
-  top:5.576px;
-  left:94.893px;
-}
-.dshape .circle5 {
-  position:absolute;
-  top:13.942px;
-  left:115.283px;
-}
-.dshape .circle6 {
-  position:absolute;
-  top:14.188px;
-  left:125.817px;
-}
-.dshape .circle7 {
-  position:absolute;
-  top:21.728px;
-  left:144.691px;
-}
-.dshape .circle8 {
-  position:absolute;
-  top:40.148px;
-  left:171.229px;
-}
-.dshape .circle9 {
-  position:absolute;
-  top:57.921px;
-  left:187.08px;
-}
-.dshape .circle10 {
-  position:absolute;
-  top:67.236px;
-  left:189.898px;
-}
-.dshape .circle11 {
-  position:absolute;
-  top:86.166px;
-  left:194.413px;
-}
-.dshape .circle12 {
-  position:absolute;
-  top:155.939px;
-  left:206.96px;
-}
-.dshape .circle13 {
-  position:absolute;
-  top:136.974px;
-  left:204.042px;
-}
-.dshape .circle14 {
-  position:absolute;
-  top:167.36px;
-  left:216.387px;
-}
-.dshape .circle15 {
-  position:absolute;
-  top:178.396px;
-  left:210.069px;
-}
-.dshape .circle16 {
-  position:absolute;
-  top:199.818px;
-  left:214.302px;
-}
-.dshape .circle17 {
-  position:absolute;
-  top:210.241px;
-  left:199.76px;
-}
-.dshape .circle18 {
-  position:absolute;
-  top:241.237px;
-  left:206.499px;
-}
-.dshape .circle19 {
-  position:absolute;
-  top:251.055px;
-  left:194.444px;
-}
-.dshape .circle20 {
-  position:absolute;
-  top:269.235px;
-  left:177.399px;
-}
-.dshape .circle21 {
-  position:absolute;
-  top:297.146px;
-  left:177.223px;
-}
-.dshape .circle22 {
-  position:absolute;
-  top:302.913px;
-  left:159.762px;
-}
-.dshape .circle23 {
-  position:absolute;
-  top:316.576px;
-  left:150.272px;
-}
-.dshape .circle24 {
-  position:absolute;
-  top:316.212px;
-  left:129.479px;
-}
-.dshape .circle25 {
-  position:absolute;
-  top:315.86px;
-  left:99.375px;
-}
-.dshape .circle26 {
-  position:absolute;
-  top:330.21px;
-  left:89.322px;
-}
-.dshape .circle27 {
-  position:absolute;
-  top:325.274px;
-  left:68.416px;
-}
-.dshape .circle28 {
-  position:absolute;
-  top:331.278px;
-  left:57.502px;
-}
-.dshape .circle29 {
-  position:absolute;
-  top:317.798px;
-  left:25.645px;
-}
 
 /* BOWL */
 .bowl {
@@ -436,13 +531,6 @@ body {
   left:20px;
   height:220px;
   width:220px;
-}
-.bowl div {
-    transition: transform 200ms ease-in;
-}
-
-.bowl:hover div {
-    transform:scale(0);
 }
 
 /* BOWL */
@@ -538,13 +626,6 @@ body {
 }
 
 /* ********** LETTER A ********** */
-.crossbar div {
-    transition: transform 200ms ease-in;
-}
-
-.crossbar:hover div {
-    transform:scale(0);
-}
 .a {
   width:290px;
 }
@@ -571,13 +652,6 @@ body {
 .b .bshape {
   width: 290px;
   height: 290px;
-}
-.bshape div {
-    transition: transform 200ms ease-in;
-}
-
-.bshape:hover div {
-    transform:scale(0);
 }
 .bshape .circle1 {
   position:absolute;
@@ -782,6 +856,154 @@ body {
 .d .bowl {
   width:290px;
 }
+
+/* D SHAPE */
+.dshape {
+  width:390;
+  height:390;
+}
+
+.dshape .circle2 {
+  position:absolute;
+  top:5.466px;
+  left:43.104;
+}
+.dshape .circle3 {
+  position:absolute;
+  top:-0.883px;
+  left:64.277px;
+}
+.dshape .circle4 {
+  position:absolute;
+  top:5.576px;
+  left:94.893px;
+}
+.dshape .circle5 {
+  position:absolute;
+  top:13.942px;
+  left:115.283px;
+}
+.dshape .circle6 {
+  position:absolute;
+  top:14.188px;
+  left:125.817px;
+}
+.dshape .circle7 {
+  position:absolute;
+  top:21.728px;
+  left:144.691px;
+}
+.dshape .circle8 {
+  position:absolute;
+  top:40.148px;
+  left:171.229px;
+}
+.dshape .circle9 {
+  position:absolute;
+  top:57.921px;
+  left:187.08px;
+}
+.dshape .circle10 {
+  position:absolute;
+  top:67.236px;
+  left:189.898px;
+}
+.dshape .circle11 {
+  position:absolute;
+  top:86.166px;
+  left:194.413px;
+}
+.dshape .circle12 {
+  position:absolute;
+  top:155.939px;
+  left:206.96px;
+}
+.dshape .circle13 {
+  position:absolute;
+  top:136.974px;
+  left:204.042px;
+}
+.dshape .circle14 {
+  position:absolute;
+  top:167.36px;
+  left:216.387px;
+}
+.dshape .circle15 {
+  position:absolute;
+  top:178.396px;
+  left:210.069px;
+}
+.dshape .circle16 {
+  position:absolute;
+  top:199.818px;
+  left:214.302px;
+}
+.dshape .circle17 {
+  position:absolute;
+  top:210.241px;
+  left:199.76px;
+}
+.dshape .circle18 {
+  position:absolute;
+  top:241.237px;
+  left:206.499px;
+}
+.dshape .circle19 {
+  position:absolute;
+  top:251.055px;
+  left:194.444px;
+}
+.dshape .circle20 {
+  position:absolute;
+  top:269.235px;
+  left:177.399px;
+}
+.dshape .circle21 {
+  position:absolute;
+  top:297.146px;
+  left:177.223px;
+}
+.dshape .circle22 {
+  position:absolute;
+  top:302.913px;
+  left:159.762px;
+}
+.dshape .circle23 {
+  position:absolute;
+  top:316.576px;
+  left:150.272px;
+}
+.dshape .circle24 {
+  position:absolute;
+  top:316.212px;
+  left:129.479px;
+}
+.dshape .circle25 {
+  position:absolute;
+  top:315.86px;
+  left:99.375px;
+}
+.dshape .circle26 {
+  position:absolute;
+  top:330.21px;
+  left:89.322px;
+}
+.dshape .circle27 {
+  position:absolute;
+  top:325.274px;
+  left:68.416px;
+}
+.dshape .circle28 {
+  position:absolute;
+  top:331.278px;
+  left:57.502px;
+}
+.dshape .circle29 {
+  position:absolute;
+  top:317.798px;
+  left:25.645px;
+}
+
 /* ********** LETTER E ********** */
 .e {
     width:290px;
@@ -791,31 +1013,17 @@ body {
   bottom: 240px;
   left: 94px;
 }
-.letteretop div {
-    transition: transform 200ms ease-in;
-}
-
-.letteretop:hover div {
-    transform:scale(0);
-}
 .e .crossbar {
   transform: rotate(90deg);
   bottom: 116px;
   left: 68px;
 }
-
 .letterebottom {
   transform: rotate(90deg) scaleX(-1);
   bottom: -82px;
   left: 94px;
 }
-.letterebottom div {
-    transition: transform 200ms ease-in;
-}
 
-.letterebottom:hover div {
-    transform:scale(0);
-}
 /* ********** LETTER F ********** */
 .f {
     width:290px;
@@ -824,13 +1032,6 @@ body {
   transform: scaleX(-1) rotate(90deg);
   bottom: 241px;
   left:94px;
-}
-.letterftop div {
-    transition: transform 200ms ease-in;
-}
-
-.letterftop:hover div {
-    transform:scale(0);
 }
 
 .f .crossbar {
@@ -856,7 +1057,7 @@ body {
 }
 
 .h .crossbar {
-  transform: rotate(90deg)scaleX(-1);
+  /* transform: rotate(90deg)scaleX(-1); */
   bottom: 112px;
   left: 101px;
 }
@@ -1091,9 +1292,7 @@ body {
 .p {
     width:290px;
 }
-.p .stem.leftLeg {
 
-}
 .p .bowl {
  width: 290px;
 }
@@ -1123,12 +1322,6 @@ body {
   width:290px;
 }
 /* S SHAPE */
-.sshape div {
-    transition: transform 200ms ease-in;
-}
-.sshape:hover div {
-    transform:scale(0);
-}
 .sshape .circle2 {
   position:absolute;
   top:19.545px;
@@ -1509,6 +1702,7 @@ body {
   top:-1.709px;
   left:216.975px;
 }
+
 /* ********** LETTER V ********** */
 .v {
   width:290px;
@@ -1574,132 +1768,132 @@ top: -316px;
 .yshape .circle1 {
   position:absolute;
   top:1.521px;
-  left:px;
+  left:0.066px;
 }
 .yshape .circle2 {
   position:absolute;
-  top:px;
-  left:px;
+  top:9.193px;
+  left:4.94px;
 }
 .yshape .circle3 {
   position:absolute;
-  top:px;
-  left:px;
+  top:25.637px;
+  left:16.248px;
 }
 .yshape .circle4 {
   position:absolute;
-  top:px;
-  left:px;
+  top:55.006px;
+  left:33.93px;
 }
 .yshape .circle5 {
   position:absolute;
-  top:px;
-  left:px;
+  top:75.602px;
+  left:46.854px;
 }
 .yshape .circle6 {
   position:absolute;
-  top:px;
-  left:px;
+  top:84.425px;
+  left:51.476px;
 }
 .yshape .circle7 {
   position:absolute;
-  top:px;
-  left:px;
+  top:102.643px;
+  left:61.097px;
 }
 .yshape .circle8 {
   position:absolute;
-  top:px;
-  left:px;
+  top:132.083px;
+  left:77.884px;
 }
 .yshape .circle9 {
   position:absolute;
-  top:px;
-  left:px;
+  top:151.507px;
+  left:92.542px;
 }
 .yshape .circle10 {
   position:absolute;
-  top:px;
-  left:px;
+  top:160.279px;
+  left:98.264px;
 }
 .yshape .circle11 {
   position:absolute;
-  top:px;
-  left:px;
+  top:173.8px;
+  left:116.279px;
 }
 .yshape .circle12 {
   position:absolute;
-  top:px;
-  left:px;
+  top:207.068px;
+  left:121.91px;
 }
 .yshape .circle13 {
   position:absolute;
-  top:px;
-  left:px;
+  top:230.828px;
+  left:117.042px;
 }
 .yshape .circle14 {
   position:absolute;
-  top:px;
-  left:px;
+  top:264.578px;
+  left:126.658px;
 }
 .yshape .circle15 {
   position:absolute;
-  top:px;
-  left:px;
+  top:278.348px;
+  left:121.366px;
 }
 .yshape .circle16 {
   position:absolute;
-  top:px;
-  left:px;
+  top:302.25px;
+  left:126.57px;
 }
 .yshape .circle17 {
   position:absolute;
-  top:px;
-  left:px;
+  top:316.716px;
+  left:115.836px;
 }
 .yshape .circle18 {
   position:absolute;
-  top:px;
-  left:px;
+  top:165.38px;
+  left:144.204px;
 }
 .yshape .circle19 {
   position:absolute;
-  top:px;
-  left:px;
+  top:145.683px;
+  left:148.926px;
 }
 .yshape .circle20 {
   position:absolute;
-  top:px;
-  left:px;
+  top:115.433px;
+  left:159.743px;
 }
 .yshape .circle21 {
   position:absolute;
-  top:px;
-  left:px;
+  top:96.92px;
+  left:180.244px;
 }
 .yshape .circle22 {
   position:absolute;
-  top:px;
-  left:px;
+  top:85.35px;
+  left:194.168px;
 }
 .yshape .circle23 {
   position:absolute;
-  top:px;
-  left:px;
+  top:63.779px;
+  left:200.042px;
 }
 .yshape .circle24 {
   position:absolute;
-  top:px;
-  left:px;
+  top:52.208px;
+  left:212.714px;
 }
 .yshape .circle25 {
   position:absolute;
-  top:px;
-  left:px;
+  top:31.688px;
+  left:218.537px;
 }
 .yshape .circle26 {
   position:absolute;
-  top:px;
-  left:px;
+  top:0.294px;
+  left:227.78px;
 }
 
 /* ********** LETTER Z ********** */
@@ -1958,15 +2152,6 @@ top:0px
   width:390px;
 }
 /* SIX SHAPE */
-
-.sixshape div {
-  transition: transform 200ms ease-in;
-}
-
-.sixshape:hover div {
-  transform:scale(0);
-}
-
 .sixshape .circle1 {
   position:absolute;
   top:23.884px;
@@ -2185,8 +2370,6 @@ top:0px
   left:24.886px;
 }
 
-
-
 /* ********** 7 ********** */
 .seven {
   width:290px;
@@ -2344,9 +2527,6 @@ copy the 6 letter and flip it HERE
 .quote {
   width:390px;
 }
-.quoteshape {
-
-}
 .quoteshape .circle1 {
   position:absolute;
   top:1.341px;
@@ -2396,7 +2576,7 @@ Flip quote to make right quote
 
 /* ********** , ********** */
 .comma {
-  width:390px;
+  width:290px;
 }
 .quoteshape .circle1 {
   position:absolute;
@@ -2425,9 +2605,8 @@ Flip quote to make right quote
 }
 /* ********** . ********** */
 .period {
-  width:390px;
+  width:290px;
 }
-
 /* ********** CIRCLES ********** */
 
 .circle1 {
