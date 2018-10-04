@@ -19,7 +19,8 @@ body {
 
 .hello {
   height: 900px;
-  width:
+  padding-left: 600px;
+
 }
 
 ANIMATION
@@ -3031,6 +3032,7 @@ Flip quoteshape to make right quote
 .bauble{
   width:auto;
   height:2000px;
+  padding-left: 600px;
 }
 .commashape .circle2 {
   position: absolute;
