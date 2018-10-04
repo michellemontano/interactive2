@@ -11,8 +11,8 @@ body {
 .letter {
   height:350px;
   width: 290px;
-  margin-left:70px;
-  margin-top:100px;
+  margin-left:50px;
+  margin-top:50px;
   float:left;
   position: relative;
 }
@@ -295,7 +295,7 @@ ANIMATION
 
 .counter {
   height:390px;
-  width:390px;
+  width:290px;
 }
 
 .counter .circle1 {
@@ -627,7 +627,7 @@ ANIMATION
 
 /* ********** LETTER A ********** */
 .a {
-  width:290px;
+  width:257px;
 }
 .a .stem.rightLeg {
   transform: scaleX(-1) rotate(21deg);
@@ -646,7 +646,7 @@ ANIMATION
 }
 /* ********** LETTER B ********** */
 .b {
-  width:290px;
+  width:235px;
 }
 
 .b .bshape {
@@ -842,7 +842,7 @@ ANIMATION
 
 /* ********** LETTER C ********** */
 .c {
-  width:290px;
+  width:226px;
 }
 .c .counter {
   width:290px;
@@ -850,7 +850,7 @@ ANIMATION
 
 /* ********** LETTER D ********** */
 .d {
-  width:290px;
+  width:238px;
 }
 
 .d .bowl {
@@ -1006,7 +1006,7 @@ ANIMATION
 
 /* ********** LETTER E ********** */
 .e {
-    width:290px;
+    width:211px;
 }
 .letteretop {
   transform: scaleX(-1) rotate(90deg);
@@ -1026,7 +1026,7 @@ ANIMATION
 
 /* ********** LETTER F ********** */
 .f {
-    width:290px;
+    width:209px;
 }
 .letterftop {
   transform: scaleX(-1) rotate(90deg);
@@ -1041,7 +1041,7 @@ ANIMATION
 }
 /* ********** LETTER G ********** */
 .g {
-  width:290px;
+  width:255px;
 }
 .g .crossbar {
   transform: rotate(90deg);
@@ -1053,7 +1053,7 @@ ANIMATION
 }
 /* ********** LETTER H ********** */
 .h {
-  width:390px;
+  width:235px;
 }
 
 .h .crossbar {
@@ -1068,7 +1068,7 @@ ANIMATION
 }
 /* ********** LETTER I ********** */
 .i {
-    width:290px;
+    width:248px;
 }
 
 .letteristem {
@@ -1089,7 +1089,7 @@ ANIMATION
 }
 /* ********** LETTER J ********** */
 .j {
-    width:290px;
+    width:246px;
 }
 
 .letterjtop {
@@ -1246,7 +1246,7 @@ ANIMATION
 
 /* ********** LETTER L ********** */
 .l {
-    width:290px;
+    width:223px;
 }
 .letterlbottom {
   transform: rotate(90deg);
@@ -1282,7 +1282,7 @@ ANIMATION
 }
 /* ********** LETTER O ********** */
 .o {
-  width:290px;
+  width:230px;
 }
 
 .o .bowl {
@@ -1290,7 +1290,7 @@ ANIMATION
 }
 /* ********** LETTER P ********** */
 .p {
-    width:290px;
+    width:211px;
 }
 
 .p .bowl {
@@ -1298,7 +1298,7 @@ ANIMATION
 }
 /* ********** LETTER Q ********** */
 .q {
-    width:290px;
+    width:274px;
 }
 .q .crossbar {
   transform: rotate(133deg);
@@ -1307,7 +1307,7 @@ ANIMATION
 }
 /* ********** LETTER R ********** */
 .r {
-    width:290px;
+    width:268px;
 }
 .rleg {
   transform: rotate(143deg);
@@ -1319,7 +1319,7 @@ ANIMATION
 }
 /* ********** LETTER S ********** */
 .s {
-  width:290px;
+  width:217px
 }
 /* S SHAPE */
 .sshape .circle2 {
@@ -1505,7 +1505,7 @@ ANIMATION
 
 /* ********** LETTER T ********** */
 .t {
-  width:290px;
+  width:236px;
 }
 .t .stem.leftLeg {
   left: 106px;
@@ -1517,7 +1517,7 @@ ANIMATION
 }
 /* ********** LETTER U ********** */
 .u {
-  width:290px;
+  width:244px;
 }
 .ushape {
 
@@ -1745,7 +1745,7 @@ top: -316px;
 }
 /* ********** LETTER X ********** */
 .x {
-   width:290px;
+   width:205px;
 }
 
 .x .stem.leftLeg {
@@ -1760,10 +1760,7 @@ top: -316px;
 }
 /* ********** LETTER Y ********** */
 .y {
-   width:290px;
-}
-.yshape {
-
+   width:261px;
 }
 .yshape .circle1 {
   position:absolute;
@@ -1919,10 +1916,10 @@ top:0px
 
 /* ********** 1 ********** */
 .one {
-  width:390px;
+  width:187px;
 }
 .one .stem.leftLeg {
-  left: 265px;
+  left: 0px;
   transform: scaleX(-1);
 }
 /* ********** 2 ********** */
@@ -1931,12 +1928,12 @@ top:0px
 }
 /* ********** 3 ********** */
 .three {
-  width:290px;
+  width:233px;
 }
 
 /* ********** 4 ********** */
 .four {
-  width:290px;
+  width:224px;
 }
 .four .stem.rightLeg {
   left: 167px;
@@ -1954,7 +1951,7 @@ top:0px
 }
 /* ********** 5 ********** */
 .five {
-  width:390px;
+  width:198px;
 }
 .fiveshape .circle1 {
   position:absolute;
@@ -2149,7 +2146,7 @@ top:0px
 
 /* ********** 6 ********** */
 .six {
-  width:390px;
+  width:227px;
 }
 /* SIX SHAPE */
 .sixshape .circle1 {
@@ -2372,19 +2369,17 @@ top:0px
 
 /* ********** 7 ********** */
 .seven {
-  width:290px;
+  width:273px;
 }
 .seven .stem.rightLeg {
   left: 265px;
-  transform: scaleX(-1);
 }
 .seven .crossbar {
   top:0px;
-  transform: rotate(90);
 }
 /* ********** 8 ********** */
 .eight {
-  width:290px;
+  width:221px;
 }
 .eight .leftLeg {
   left: 90px;
@@ -2397,7 +2392,7 @@ top:0px
 copy the 6 letter and flip it HERE
 /* ********** 0 ********** */
 .zero {
-  width:290px;
+  width:230px;
 }
 .zero .stem.rightLeg {
   left: 265px;
@@ -2572,11 +2567,11 @@ copy the 6 letter and flip it HERE
   top:71.578px;
   left:45.697px;
 }
-Flip quote to make right quote
+Flip quoteshape to make right quote
 
 /* ********** , ********** */
 .comma {
-  width:290px;
+  width:183px;
 }
 .quoteshape .circle1 {
   position:absolute;
