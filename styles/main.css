@@ -22,18 +22,21 @@ body {
 }
 
 h1 {
-	color:white;
+	color:Red;
+	font-size:15pt;
 }
 
 h1, h2, h3 {
 	margin: 20px 0;
     font-size:15pt;
+		color: white;
 }
 
 p {
 	margin: 20px 0;
 	font-size:8pt;
 	line-height: 150%;
+	color: white;
 }
 
 ul {
@@ -41,12 +44,13 @@ ul {
 }
 
 a {
-	color:black;
+	color:white;
 }
 
 a:hover {
-	color:red;
+	color:yellow;
 }
+
 .photo {
 	width: 50px;
 }
