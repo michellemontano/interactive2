@@ -23,7 +23,7 @@ $(document).ready(function(){
         $('.minute').html(m);
         $('.second').html(s);
 
-        // rotate clock based on the minute
+        // rotate clock
         $('.hour').css('transform', 'rotate('+ h * 6 +'deg');
         $('.minute').css('transform', 'rotate('+ m * 6 +'deg');
         $('.second').css('transform', 'rotate('+ s * 6 +'deg');
@@ -42,7 +42,7 @@ $(document).ready(function(){
     }, 1000);
 
     setInterval(function() {
-      $('body').append('hi');
+      $('body').append('test');
     }, 60000);
 
 

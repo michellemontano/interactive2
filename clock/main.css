@@ -21,6 +21,14 @@ body {
 	display: flex;
 	align-items: center;
   	justify-content: center;
+    animation: rotate 2s infinite;
+}
+
+}
+@keyframes rotate {
+  100% {
+      transform: rotate(180deg);
+  }
 }
 
 .minute {
