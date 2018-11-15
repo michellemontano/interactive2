@@ -18,15 +18,15 @@ body {
 	display: flex;
 	align-items: center;
   	justify-content: center;
-    animation: rotate 2s infinite;
+    /* animation: rotate 2s infinite; */
 }
 
 }
-@keyframes rotate {
+/* @keyframes rotate {
   100% {
       transform: rotate(180deg);
   }
-}
+} */
 
 .minute {
 	border: 1px solid white;
