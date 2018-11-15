@@ -1,7 +1,7 @@
 body {
 	background: black;
 	color: white;
-	font-family: monaco; courier; monospace;
+	font-family: monaco: courier: monospace;
   font-size: 10px;
 	display: flex;
 	align-items: center;
@@ -10,9 +10,6 @@ body {
   	min-height: 100vh;
 }
 
-.noon {
-	background: red;
-}
 
 .hour {
 	border: 1px solid white;
