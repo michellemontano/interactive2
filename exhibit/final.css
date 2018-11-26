@@ -1,0 +1,171 @@
+/* body {
+  background-color:#000000;
+} */
+.navbar {
+  font-family: 'Archivo', sans-serif;
+  overflow: hidden;
+  background-color: #DADADA;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+h1 {
+  padding-left: 10px;
+  font-family: 'Notable';
+  font-size: 70px;
+  font-weight: bold;
+  top:100px;
+  left:50px;
+}
+.figureswithsunset {
+  padding-left: 10px;
+  position: absolute;
+  font-family: 'Archivo', sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: medium;
+  left:50px;
+}
+.blueh1 {
+  color:#1933AA;
+}
+h3 {
+  padding-left: 10px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: medium;
+  left:50px;
+}
+img {
+  padding-left:20px;
+  position:relative;
+  float:right;
+  width:700px;
+}
+/* p {
+  width:300px;
+  padding-left:10px;
+  font-size:14px;
+  position: absolute;
+  line-height:1.4;
+  color:#A0A0A0;
+} */
+.pullquote {
+  width: 350px;
+  padding-left: 30px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:#B30000;
+  line-height: 1.6;
+  position: absolute;
+  left:50px;
+  top:500px;
+}
+.text0 {
+  font-family: 'Archivo', sans-serif;
+  line-height: 1.4;
+  height:500px;
+  width:350px;
+  left: 50px;
+  position: absolute;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+/* .roy {
+  padding-left:20px;
+  position:relative;
+  float:right;
+  width:900px;
+}
+.drowninggirl {
+  padding-left:20px;
+  position:relative;
+  float:right;
+  width:900px;
+}
+.thetire {
+  padding-left:20px;
+  position:relative;
+  float:right;
+  width:900px;
+}
+.tzing {
+  padding-left:20px;
+  position:relative;
+  float:right;
+  width:900px;
+} */
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
