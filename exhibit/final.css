@@ -32,14 +32,14 @@
 }
 
 h1 {
-  padding-left: 10px;
+  margin-left: 50px;
   font-family: 'Notable';
   font-size: 70px;
   font-weight: bold;
   top:100px;
   left:50px;
 }
-.figureswithsunset {
+/* .figureswithsunset {
   padding-left: 10px;
   position: absolute;
   font-family: 'Archivo', sans-serif;
@@ -47,17 +47,17 @@ h1 {
   line-height: 1.4;
   font-weight: medium;
   left:50px;
-}
+} */
 .blueh1 {
   color:#1933AA;
 }
 h3 {
-  padding-left: 10px;
+  /* margin-left: 50px; */
   font-family: 'Archivo', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.4;
-  font-weight: medium;
-  left:50px;
+  margin-bottom: 40px;
+  font-weight: lighter;
 }
 img {
   padding-left:20px;
@@ -77,20 +77,21 @@ img {
   width: 350px;
   padding-left: 30px;
   font-family: 'Archivo', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   color:#B30000;
   line-height: 1.6;
   position: absolute;
-  left:50px;
-  top:500px;
+  margin-left: 70px;
+  top: 600px;
 }
 .text0 {
   font-family: 'Archivo', sans-serif;
+  font-size: 13px;
   line-height: 1.4;
   height:500px;
   width:350px;
-  left: 50px;
+  margin-left: 50px;
   position: absolute;
 }
 .center {
@@ -98,6 +99,35 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
+}
+.title {
+  font-family: 'Notable';
+  font-size: 75px;
+  font-weight: bold;
+  position: absolute;
+  top:50%;
+  left:50%;
+}
+/* Linked Pieces */
+.background {
+  position: absolute;
+  width: 1390px;
+}
+.biohover {
+  position: absolute;
+  width: 1390px;
+}
+.tirehover {
+  position: absolute;
+  width: 1390px;
+}
+.drowninghover {
+  position: absolute;
+  width: 1390px;
+}
+.tzinghover {
+  position: absolute;
+  width: 1390px;
 }
 /* .roy {
   padding-left:20px;
