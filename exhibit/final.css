@@ -1,10 +1,10 @@
-/* body {
+body {
   background-color:#000000;
-} */
+}
 .navbar {
   font-family: 'Archivo', sans-serif;
   overflow: hidden;
-  background-color: #DADADA;
+    color: #000000;
   position: fixed;
   top: 0;
   width: 100%;
@@ -13,7 +13,7 @@
 .navbar a {
   float: left;
   display: block;
-  color: #FFFFFF;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -38,16 +38,8 @@ h1 {
   font-weight: bold;
   top:100px;
   left:50px;
+  color: white;
 }
-/* .figureswithsunset {
-  padding-left: 10px;
-  position: absolute;
-  font-family: 'Archivo', sans-serif;
-  font-size: 18px;
-  line-height: 1.4;
-  font-weight: medium;
-  left:50px;
-} */
 .blueh1 {
   color:#1933AA;
 }
@@ -58,6 +50,7 @@ h3 {
   line-height: 1.4;
   margin-bottom: 40px;
   font-weight: lighter;
+  color: white;
 }
 img {
   padding-left:20px;
@@ -65,14 +58,7 @@ img {
   float:right;
   width:700px;
 }
-/* p {
-  width:300px;
-  padding-left:10px;
-  font-size:14px;
-  position: absolute;
-  line-height:1.4;
-  color:#A0A0A0;
-} */
+
 .pullquote {
   width: 350px;
   padding-left: 30px;
@@ -86,13 +72,16 @@ img {
   top: 600px;
 }
 .text0 {
-  font-family: 'Archivo', sans-serif;
-  font-size: 13px;
-  line-height: 1.4;
-  height:500px;
-  width:350px;
-  margin-left: 50px;
-  position: absolute;
+font-family: 'Archivo', sans-serif;
+font-size: 13px;
+line-height: 1.4;
+height: 509px;
+width: 462px;
+margin-left: 50px;
+position: absolute;
+color: white;
+column-count: 2;
+column-width: 168px;
 }
 .center {
     display: block;
@@ -107,11 +96,16 @@ img {
   position: absolute;
   top:50%;
   left:50%;
+  color: white;
 }
 /* Linked Pieces */
 .background {
   position: absolute;
   width: 1390px;
+}
+.water {
+  position: fixed;
+  width: 1434px;;
 }
 .biohover {
   position: absolute;
@@ -153,49 +147,3 @@ img {
   float:right;
   width:900px;
 } */
-/* Style The Dropdown Button */
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
