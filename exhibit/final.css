@@ -1,10 +1,14 @@
+a {
+  color:yellow;
+}
+
 body {
   background-color:#000000;
 }
 .navbar {
   font-family: 'Archivo', sans-serif;
   overflow: hidden;
-    color: #000000;
+  color: #000000;
   position: fixed;
   top: 0;
   width: 100%;
@@ -40,9 +44,11 @@ h1 {
   left:50px;
   color: white;
 }
-.blueh1 {
+
+/* .blueh1 {
   color:#1933AA;
-}
+} */
+
 h3 {
   /* margin-left: 50px; */
   font-family: 'Archivo', sans-serif;
@@ -60,16 +66,15 @@ img {
 }
 
 .pullquote {
-  width: 350px;
-  padding-left: 30px;
+  width: 221px;
+  padding-left: 50px;
   font-family: 'Archivo', sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  color:#B30000;
-  line-height: 1.6;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #B30000;
+  line-height: 1.2;
   position: absolute;
-  margin-left: 70px;
-  top: 600px;
+  top: 353px;
 }
 .text0 {
 font-family: 'Archivo', sans-serif;
@@ -83,6 +88,72 @@ color: white;
 column-count: 2;
 column-width: 168px;
 }
+
+.text1 {
+font-family: 'Archivo', sans-serif;
+font-size: 12px;
+line-height: 1.4;
+height: 86px;
+width: 209px;
+position: absolute;
+color: white;
+/* column-width: 168px; */
+left: 297px;
+top:347px;
+}
+
+.biotext {
+  font-family: 'Archivo', sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  height: 509px;
+  width:217px;
+  margin-left: 50px;
+  position: absolute;
+  color: white;
+  column-count: 2;
+  column-width: 168px;
+}
+.drowningtext {
+  font-family: 'Archivo', sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  height: 509px;
+  width:217px;
+  margin-left: 50px;
+  position: absolute;
+  color: white;
+  column-count: 2;
+  column-width: 168px;
+}
+.tzingtext {
+  font-family: 'Archivo', sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  height: 509px;
+  width:217px;
+  margin-left: 50px;
+  position: absolute;
+  color: white;
+  column-count: 2;
+  column-width: 168px;
+}
+.thetiretext {
+  font-family: 'Archivo', sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+  height: 86px;
+  width: 209px;
+  position: absolute;
+  color: white;
+  /* column-width: 168px; */
+  left: 297px;
+  top:347px;
+}
+
+
+
+
 .center {
     display: block;
     margin-left: auto;
@@ -91,59 +162,167 @@ column-width: 168px;
 }
 .title {
   font-family: 'Notable';
-  font-size: 75px;
+  font-size: 130px;
   font-weight: bold;
-  position: absolute;
-  top:50%;
-  left:50%;
+  position: fixed;
+  top: 300px;
+  left: 99px;
   color: white;
+  z-index: 10;
 }
-/* Linked Pieces */
+.title:hover {
+  color:yellow;
+}
+
+/* Images */
+
 .background {
   position: absolute;
   width: 1390px;
 }
+
 .water {
   position: fixed;
-  width: 1434px;;
-}
-.biohover {
-  position: absolute;
-  width: 1390px;
-}
-.tirehover {
-  position: absolute;
-  width: 1390px;
-}
-.drowninghover {
-  position: absolute;
-  width: 1390px;
-}
-.tzinghover {
-  position: absolute;
-  width: 1390px;
-}
-/* .roy {
-  padding-left:20px;
-  position:relative;
-  float:right;
-  width:900px;
+  top: 0px;
+  float: left;
+  width: 1772px;
 }
 .drowninggirl {
-  padding-left:20px;
-  position:relative;
-  float:right;
-  width:900px;
+  position: absolute;
+  top: 0;
+  float: right;
+  width:783px;
+  left: 559px;
 }
+.drowninghover {
+  position: fixed;
+  width: 1589px;
+}
+
+.roy {
+position: absolute;
+top: 0;
+float: right;
+width: 896px;
+left: 559px;
+}
+
 .thetire {
-  padding-left:20px;
-  position:relative;
-  float:right;
-  width:900px;
+position: absolute;
+top: 0;
+float: right;
+width: 700px;
+left: 559px;
 }
+.tirehover {
+  position: fixed;
+  width: 812px;
+}
+
 .tzing {
-  padding-left:20px;
-  position:relative;
-  float:right;
-  width:900px;
-} */
+  position: absolute;
+  top: 0;
+  float: right;
+  width: 576px;
+  left: 559px;
+}
+.tzinghover {
+  position: fixed;
+  width: 812px;
+}
+
+@keyframes button-18 {
+  50% {
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+.button-18 {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.button-18:hover, .button-18:focus, .button-18:active {
+  animation-name: button-18;
+  animation-duration: 0.15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  background:blue;
+}
+}
+
+/* Small Screen Version */
+@media only screen and (max-width:480px) {
+  .drowninggirl {
+    position: relative;
+    width: 480px;
+    left: 0;
+  }
+  .roy {
+    position: relative;
+    width: 480px;
+    left: 0;
+  }
+
+  .thetire {
+    position: relative;
+    width: 480px;
+    left: 0;
+  }
+
+  .tzing {
+    position: relative;
+    width: 480px;
+    left: 0;
+  }
+
+  .water {
+    display:none;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 10px;
+  }
+
+  h1 {
+    font-family: 'Notable';
+    font-size: 44px;
+    font-weight: bold;
+    top: 100px;
+    color: white;
+  }
+  .text0 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 10px;
+    line-height: 1.2;
+    height: 358px;
+    width: 156px;
+    margin-left: 30px;
+    position: absolute;
+    color: white;
+    column-count: 2;
+    column-width: 100px;
+  }
+  .text1 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 8px;
+    line-height: 1.4;
+    height: 86px;
+    width: 121px;
+    position: absolute;
+    color: white;
+    /* column-width: 168px; */
+    left: 207px;
+    top: 842px;
+    }
+  }
+}
