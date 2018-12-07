@@ -116,15 +116,15 @@ top:347px;
 }
 .drowningtext {
   font-family: 'Archivo', sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.4;
-  height: 509px;
-  width:217px;
-  margin-left: 50px;
+  height: 86px;
+  width: 209px;
   position: absolute;
   color: white;
-  column-count: 2;
-  column-width: 168px;
+      /* column-width: 168px; */
+  left: 297px;
+  top: 660px;
 }
 .tzingtext {
   font-family: 'Archivo', sans-serif;
@@ -148,7 +148,7 @@ top:347px;
   color: white;
   /* column-width: 168px; */
   left: 297px;
-  top:347px;
+  top:544px;
 }
 
 
@@ -185,7 +185,15 @@ top:347px;
   position: fixed;
   top: 0px;
   float: left;
-  width: 1772px;
+  width: 1539px;
+  left: -20px;
+}
+.zig {
+  position: fixed;
+  top: 0px;
+  float: left;
+  width: 1311px;
+  left: -200px;
 }
 .drowninggirl {
   position: absolute;
@@ -195,8 +203,11 @@ top:347px;
   left: 559px;
 }
 .drowninghover {
-  position: fixed;
-  width: 1589px;
+  position: absolute;
+  top: 359px;
+  left: 347px;
+  width: 710px;
+  z-index: 1;
 }
 
 .roy {
@@ -228,7 +239,8 @@ left: 559px;
 }
 .tzinghover {
   position: fixed;
-  width: 812px;
+  width: 1198px;
+  left: 345px;
 }
 
 @keyframes button-18 {
