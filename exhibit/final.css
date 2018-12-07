@@ -40,9 +40,9 @@ h1 {
   font-family: 'Notable';
   font-size: 70px;
   font-weight: bold;
-  top:100px;
-  left:50px;
   color: white;
+  z-index: 100;
+  position: relative;
 }
 
 /* .blueh1 {
@@ -240,7 +240,9 @@ top:347px;
     position: absolute;
     color: white;
     /* column-count: 2; */
-    /* column-width: 797px; */
+  /* column-width: 797px; */
+}
+
 .thetire {
 position: absolute;
 top: 0;
@@ -267,7 +269,7 @@ left: 559px;
 .tzinghover {
   position: fixed;
   width: 1198px;
-  left: 345px;
+  left: 400px;
 }
 .tzinghover:hover {
     transform: scale(3, 3);
