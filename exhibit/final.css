@@ -1,9 +1,12 @@
 a {
-  color:yellow;
+  color:red;
 }
 
 body {
-  background-color:#000000;
+  background-color:black;
+}
+body:hover {
+  color:yellow;
 }
 .navbar {
   font-family: 'Archivo', sans-serif;
@@ -169,7 +172,7 @@ top:347px;
   position: absolute;
   top: 50%;
   left: 50%;
-  color: white;
+  color:orange;
   z-index: 10;
 }
 .title:hover {
@@ -302,24 +305,7 @@ left: 559px;
 /* Small Screen Version */
 @media only screen and (max-width:480px) {
   .drowninggirl {
-    position: relative;
-    width: 480px;
-    left: 0;
-  }
-  .roy {
-    position: relative;
-    width: 480px;
-    left: 0;
-  }
-
-  .thetire {
-    position: relative;
-    width: 480px;
-    left: 0;
-  }
-
-  .tzing {
-    position: relative;
+    position: fixed;
     width: 480px;
     left: 0;
   }

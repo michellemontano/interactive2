@@ -7,7 +7,7 @@ body {
 	font-family: 'Trebuchet MS', monospace;
 	font-size: 20px;
 	font-weight: normal;
-	background-color: black;
+	background-color: pink;
 }
 
 /* this is a comment */
@@ -48,9 +48,9 @@ a {
 }
 
 a:hover {
-	color:yellow;
+	color:red;
 }
 
 .photo {
-	width: 50px;
+	width: 20px;
 }
