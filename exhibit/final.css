@@ -104,15 +104,15 @@ top:347px;
 
 .biotext {
   font-family: 'Archivo', sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.4;
-  height: 509px;
-  width:217px;
-  margin-left: 50px;
+  height: 86px;
+  width: 209px;
   position: absolute;
   color: white;
-  column-count: 2;
-  column-width: 168px;
+      /* column-width: 168px; */
+  left: 297px;
+  top: 660px;
 }
 .drowningtext {
   font-family: 'Archivo', sans-serif;
@@ -195,6 +195,13 @@ top:347px;
   width: 1311px;
   left: -200px;
 }
+.lines {
+  position: fixed;
+  top: 0px;
+  float: left;
+  width: 1340px;
+  left: -41px;
+}
 .drowninggirl {
   position: absolute;
   top: 0;
@@ -209,7 +216,9 @@ top:347px;
   width: 710px;
   z-index: 1;
 }
-
+.drowninghover:hover {
+    transform: scale(2, 2);
+}
 .roy {
 position: absolute;
 top: 0;
@@ -229,6 +238,9 @@ left: 559px;
   position: fixed;
   width: 812px;
 }
+.tirehover:hover {
+    transform: scale(2, 2);
+}
 
 .tzing {
   position: absolute;
@@ -241,6 +253,9 @@ left: 559px;
   position: fixed;
   width: 1198px;
   left: 345px;
+}
+.tzinghover:hover {
+    transform: scale(3, 3);
 }
 
 @keyframes button-18 {
