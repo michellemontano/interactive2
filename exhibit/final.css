@@ -161,12 +161,14 @@ top:347px;
     width: 1000px;
 }
 .title {
+  transform: translate(-50%,-50%);
+  cursor: pointer;
   font-family: 'Notable';
   font-size: 130px;
   font-weight: bold;
-  position: fixed;
-  top: 300px;
-  left: 99px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   color: white;
   z-index: 10;
 }
@@ -218,15 +220,27 @@ top:347px;
 }
 .drowninghover:hover {
     transform: scale(2, 2);
+    transition: all 500ms ease;
 }
 .roy {
-position: absolute;
-top: 0;
-float: right;
-width: 896px;
-left: 559px;
+  position: absolute;
+  top: 156px;
+  float: right;
+  width: 968px;
+  left: 559px;
+  object-fit: cover;
 }
-
+.roytext {
+    font-family: 'Archivo', sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    height: 509px;
+    width: 169px;
+    margin-left: 50px;
+    position: absolute;
+    color: white;
+    /* column-count: 2; */
+    /* column-width: 797px; */
 .thetire {
 position: absolute;
 top: 0;
@@ -240,6 +254,7 @@ left: 559px;
 }
 .tirehover:hover {
     transform: scale(2, 2);
+    transition: all 500ms ease;
 }
 
 .tzing {
@@ -256,6 +271,7 @@ left: 559px;
 }
 .tzinghover:hover {
     transform: scale(3, 3);
+    transition: all 500ms ease;
 }
 
 @keyframes button-18 {
